@@ -25,7 +25,6 @@ Startup:
 <br><br>
 Producto: GigMap  
 <br><br>
-<br><br>
 <strong>Integrantes</strong>  
 <br><br>
 Bejarano Martinez, Alvaro Leandro (u202311640)
@@ -42,7 +41,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 <br><br>
 <br>
 
-**2026**
+**Abril, 2026**
 </h3>
 </div>
 
