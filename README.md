@@ -2807,8 +2807,6 @@ Para el desarrollo del proyecto se implementa **GitFlow** como modelo de gestió
 
 - **Rama `develop`:** Rama de integración continua donde se consolidan los cambios desarrollados. Permite verificar que todas las funcionalidades trabajadas operen correctamente antes de ser promovidas a `main`.
 
-![GitFlow Diagram]()
-
 #### Convenciones de Commits
 
 Se aplica la convención **Conventional Commits** para estructurar los mensajes de commit de forma clara y semántica. Los prefijos utilizados son:
