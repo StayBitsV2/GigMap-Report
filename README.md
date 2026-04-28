@@ -973,7 +973,7 @@ Finalmente, recomendaría una aplicación como GigMap a otros artistas emergente
 - **Inicio de entrevista:** 00:00:08
 
 <p align="center">
-  <img src="assets/images/interviews/artist3.jpeg" alt="artist3" width="700">
+	![team member profile photo](assets/images/interviews/artist3.jpeg)
 </p>
 
 **Resumen:*En la entrevista, Diego Santos, conocido como Le Saint, artista independiente peruano con 10 años de trayectoria, comparte los desafíos que enfrenta para promocionar su propuesta musical de nicho, que fusiona reggae y reggaetón con instrumentos peruanos y requiere un público con gusto exquisito. Se muestra insatisfecho con las plataformas actuales, ya que no brindan las herramientas necesarias para un crecimiento real de artistas emergentes. Por ello, expresa gran entusiasmo por GigMap, a la que considera una solución disruptiva al integrar un mapa musical local. Propone funcionalidades como la gestión eficiente de perfiles y fechas de conciertos, análisis estratégicos de datos sobre satisfacción del público y retorno de inversión para elegir ciudades viables, y una experiencia personalizada que permita a los seguidores pedir comida y servicios directamente desde la app durante los shows. Finalmente, Le Saint afirma que recomendaría la plataforma a otros músicos y valora la creación de una comunidad para interactuar de forma cercana con sus seguidores.*
