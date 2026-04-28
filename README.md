@@ -169,22 +169,21 @@ URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigM
 **TB1 (26/04/2026):**
 
 ## **Contenido**
-- [STUDENT OUTCOME](#student-outcome)
 - [Part I: As-Is Software Project](#part-i-as-is-software-project)
 - [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-      - [1.2.1. Nombre del producto](#121-nombre-del-producto)
-      - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
-      - [1.2.3. Lean UX Process](#123-lean-ux-process)
-        - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)
-        - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)
-        - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)
-        - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
+    - [1.2.1. Nombre del producto](#121-nombre-del-producto)
+    - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
+    - [1.2.3. Lean UX Process](#123-lean-ux-process)
+      - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)
+      - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)
+      - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)
+      - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [CAPÍTULO II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -199,18 +198,17 @@ URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigM
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [CAPÍTULO III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Product Backlog](#33-product-backlog)
   - [3.4. Impact Mapping](#34-impact-mapping)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [CAPÍTULO IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
     - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
-      - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-      - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+      - [4.1.3.1. Android Mobile Style Guidelines](#4131-android-mobile-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
@@ -227,13 +225,6 @@ URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigM
     - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
   - [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
     - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-    - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
-  - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
-    - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
-    - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-    - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
-    - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-  - [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
   - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
     - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
     - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
@@ -243,13 +234,16 @@ URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigM
     - [4.9.2. Class Dictionary](#492-class-dictionary)
   - [4.10. Database Design](#410-database-design)
     - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
-- [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
+- [CAPÍTULO V: Product Implementation](#capítulo-v-product-implementation)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [Repositorios](#repositorios)
+      - [GitFlow como Workflow de Control de Versiones](#gitflow-como-workflow-de-control-de-versiones)
+      - [Convenciones de Commits](#convenciones-de-commits)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
+  - [5.2. Product Implementation \& Deployment](#52-product-implementation--deployment)
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
@@ -2912,63 +2906,733 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 
 # CAPÍTULO IV: Product Design
 
+El product design es el proceso mediante el cual se define la apariencia, estructura y funcionamiento del producto. En esta etapa se busca crear una solución que combine una buena experiencia de usuario con una implementación técnica eficiente. Su propósito es asegurar que el diseño cumpla con los objetivos del proyecto, facilitando la interacción entre el usuario y la aplicación de manera clara, funcional y atractiva.
+
 ## 4.1. Style Guidelines
 
+El product design es el proceso mediante el cual se define la apariencia, estructura y funcionamiento del producto. En esta etapa se busca crear una solución que combine una buena experiencia de usuario con una implementación técnica eficiente. Su propósito es asegurar que el diseño cumpla con los objetivos del proyecto, facilitando la interacción entre el usuario y la aplicación de manera clara, funcional y atractiva.
+
+En esta sección, StayBits sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo, que incluye assets, fonts, entre otros elementos. Esto se realiza con el fin de mantener una presentación consistente y enfocada. Asimismo, se incluyen secciones para General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines, que establecen los lineamientos visuales y de diseño del producto.
+
 ### 4.1.1. General Style Guidelines
+
+El diseño general del producto se fundamenta en la coherencia visual, la legibilidad y la identidad de marca. Estas pautas buscan garantizar una experiencia uniforme a lo largo de toda la aplicación, reflejando los valores y la personalidad del proyecto. Cada elemento visual ha sido seleccionado cuidadosamente para comunicar profesionalismo y cercanía, manteniendo un equilibrio entre lo formal y lo casual.
+
+**Branding:**
+
+El branding del proyecto se representa mediante un símbolo de localización acompañado de una nota musical, una combinación que refleja la esencia y propósito de la aplicación: conectar a las personas con experiencias musicales cercanas a su entorno. Esta fusión visual transmite el vínculo entre la música y la exploración, dos pilares fundamentales del proyecto. El ícono, busca ser fácilmente reconocible y adaptable a diferentes formatos y tamaños, desde íconos móviles hasta elementos gráficos dentro de la interfaz.
+
+Los colores principales del logotipo, **#5C0F1A** y **#99182C**, se escogieron por su capacidad para evocar energía, pasión y creatividad, atributos estrechamente relacionados con el ámbito musical. El uso predominante del tono **#5C0F1A** comunica profundidad y elegancia, mientras que **#99182C** aporta contraste y vitalidad, reforzando la identidad visual del sistema y creando una sensación de dinamismo. En conjunto, estos elementos visuales consolidan una identidad sólida y coherente, que no solo distingue al proyecto a nivel estético, sino que también expresa su personalidad y propósito de conectar a las personas a través de la música y la experiencia compartida.
+
+<p align="center">
+  <img src="assets/images/product-desing/style-guidelines/logo.png" alt="logo" width="700">
+</p>
+
+**Colores:**
+
+La paleta de colores del proyecto busca equilibrio entre modernidad, contraste y armonía visual. Cada tono cumple un propósito específico dentro de la interfaz:
+
+- **F6F6F6**: se utiliza como color de fondo principal en toda la aplicación, ofreciendo una apariencia limpia, ligera y agradable a la vista.
+
+- **000000**: actúa como color de contraste para textos y elementos destacados sobre el fondo claro, garantizando legibilidad y jerarquía visual.
+
+- **5C0F1A**: se emplea como color acento, aportando fuerza, carácter y cohesión con el logotipo.
+
+- **736D6D** y **8E8787**: complementan la interfaz como tonos neutros secundarios, utilizados en iconografía, líneas divisorias o textos secundarios para mantener balance visual.
+
+<p align="center">
+  <img src="assets/images/product-desing/style-guidelines/colors.png" alt="colores" width="700">
+</p>
+
+**Tipografía**
+
+Se utiliza la familia tipográfica Inter, reconocida por su legibilidad y diseño contemporáneo. Dentro del sistema visual, se varían sus pesos —Bold, SemiBold, Medium, Regular y Black— dependiendo de la importancia y el nivel de énfasis que requiera cada elemento textual.
+
+- **Encabezados**: se emplean pesos más altos, Inter Bold o SemiBold, para destacar jerarquías y secciones clave.
+
+- **Cuerpo de texto:** se utiliza Inter Regular o Medium, priorizando la claridad en la lectura prolongada.
+
+Esta elección tipográfica contribuye a mantener una identidad visual coherente y una experiencia de usuario equilibrada, asegurando una comunicación clara y profesional en toda la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/style-guidelines/typo.png" alt="typo" width="700">
+</p>
+
+**Tono de comunicación**
+
+El tono adoptado es formal pero cercano, buscando transmitir profesionalismo sin perder empatía. El lenguaje combina claridad y calidez, fomentando una conexión natural con el usuario. Este equilibrio refuerza la identidad del proyecto como una aplicación confiable, moderna y accesible.
+
+La comunicación se desarrolla bajo una línea respetuosa y entusiasta, proyectando energía y dinamismo a través tanto del texto como de los elementos visuales.
 
 ### 4.1.2. Web Style Guidelines
 
 ### 4.1.3. Mobile Style Guidelines
 
-#### 4.1.3.1. iOS Mobile Style Guidelines
-
-#### 4.1.3.2. Android Mobile Style Guidelines
+#### 4.1.3.1. Android Mobile Style Guidelines
 
 ## 4.2. Information Architecture
 
+La Information Architecture (IA) se centra en la organización, estructuración y presentación del contenido dentro del sistema, con el objetivo de facilitar la navegación y la comprensión por parte del usuario. A través de esta etapa, se establecen las bases para que la información sea accesible, coherente y fácil de encontrar. En esta sección, el equipo define las decisiones y fundamentos que orientan la distribución del contenido en las distintas experiencias digitales, incluyendo la Landing Page y la aplicación, asegurando que los usuarios puedan interactuar de manera intuitiva y sin esfuerzo. Asimismo, se detallan los lineamientos relacionados con los Organization Systems, Labeling Systems, Navigation Systems y Searching Systems, que en conjunto conforman la estructura lógica y funcional del producto.
+
 ### 4.2.1. Organization Systems
+
+En esta sección, el equipo detalla cómo se aplicarán los sistemas de organización de la información dentro de GigMap, con el objetivo de garantizar que los usuarios puedan acceder fácilmente a la información que necesitan y navegar de manera eficiente por la aplicación. La estructura de la información busca ofrecer una experiencia intuitiva y ordenada, facilitando la interacción con los diferentes módulos y funcionalidades del sistema.
+
+La organización visual del contenido se estructurará de la siguiente manera:
+
+- **Jerárquica (Visual Hierarchy):** este enfoque se aplicará para resaltar los elementos más relevantes de la interfaz, como los botones de acción, eventos o secciones prioritarias. Se utilizarán variaciones en tamaño, color y posición para guiar la atención del usuario y reforzar la comprensión de la estructura general de la aplicación.
+
+- **Organización Secuencial (Step-by-Step):** se empleará en procesos que requieren un flujo lógico y progresivo, como el registro de usuarios, la visualización de información de conciertos o la publicación de eventos. Cada paso se presentará de forma clara y sencilla, reduciendo la carga cognitiva y asegurando una experiencia fluida.
+
+- **Organización Matricial:** este sistema se implementará en secciones donde los usuarios necesiten comparar o explorar diferentes opciones, como listados de conciertos, artistas o comunidades. Este enfoque permitirá visualizar varias categorías o tipos de información en paralelo, fomentando una exploración más flexible y completa.
+
+Este enfoque en la organización de la información está alineado con los objetivos de diseño de GigMap, que buscan ofrecer una interfaz clara, minimalista y centrada en el usuario, donde los elementos esenciales sean fácilmente identificables, los flujos de navegación estén optimizados y la jerarquía visual contribuya a una experiencia coherente y atractiva.
 
 ### 4.2.2. Labeling Systems
 
+El sistema de etiquetado define la manera en que se representará la información dentro de la aplicación, priorizando la claridad, simplicidad y coherencia en el lenguaje. El propósito es que los usuarios puedan identificar rápidamente las funciones y secciones sin confusión, asociando cada etiqueta con su contenido o acción correspondiente. Las etiquetas se han diseñado para ser breves, intuitivas y consistentes
+
+| **Sección / Función**                          | **Etiqueta Propuesta**                         |
+|------------------------------------------------|------------------------------------------------|
+| Lista de conciertos asistidos y por asistir     | GigList                                   |
+| Creación de conciertos               | Crear concierto  |
+| Creación de eventos                |  Crear evento relacionado |
+| Creación de comunidades                |  Crear comunidad |
+| Publicaciones con “me gusta”                    | Likes                                |
+| Comunidades a las que pertenece el usuario      | Comunidades                               |
+| Perfil del usuario                              | Mi perfil / Editar perfil              |
+| Sección general de eventos                      | Eventos relacionados                    |
+| Página de inicio          | Inicio                 |
+| Mapa interactivo        | Mapa                 |
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+En esta sección se presentan las etiquetas SEO (Search Engine Optimization) y los Meta Tags que optimizan la visibilidad de GigMap en motores de búsqueda y tiendas de aplicaciones.
+
+Estas etiquetas contribuyen a mejorar el posicionamiento y facilitar que los usuarios encuentren GigMap fácilmente, tanto en la landing page como la aplicación mobile.
+
+Se han definido los valores para las principales páginas del sitio web (Landing Page) y los elementos de optimización en la aplicación móvil (ASO – App Store Optimization).
+
+**Landing Page:**
+
+| **Etiqueta**        | **Valor Asignado** |
+|----------------------|--------------------|
+| **Title**            | GigMap |
+| **Meta Description** | Descubre, organiza y comparte tus experiencias musicales. Con GigMap puedes explorar conciertos cercanos, crear eventos y conectar con comunidades de fans. |
+| **Keywords**         | conciertos, música en vivo, eventos, fans, artistas, comunidades musicales, gigmap |
+| **Author**           | StayBits |
+
+**Aplicación mobile:**
+
+| **Elemento**         | **Valor Asignado** |
+|----------------------|--------------------|
+| **App Title**        | GigMap |
+| **App Subtitle**     | Tu mapa musical: conciertos, comunidades y experiencias únicas |
+| **App Description**  | Con GigMap, encuentra conciertos cerca de ti, crea tus propios eventos, sigue a tus artistas favoritos y conecta con otros fans. Todo desde una interfaz intuitiva y moderna. |
+| **App Keywords**     | música, conciertos, eventos, fans, artistas, comunidad, gigmap, experiencias en vivo |
+| **App Developer**    | StayBits |
 
 ### 4.2.4. Searching Systems
 
+En esta sección se detallan los medios y herramientas de búsqueda implementados dentro de GigMap, diseñados para que los usuarios puedan localizar rápidamente la información o los contenidos que desean, sin sentirse abrumados por el volumen de datos disponibles. El objetivo es garantizar una experiencia de exploración fluida, intuitiva y eficiente, tanto en la aplicación móvil como en la Landing Page.
+
+A continuación, se describen los sistemas de búsqueda implementados:
+
+- **Búsqueda de conciertos:** En la sección principal de conciertos, se integra un icono de lupa que permite a los usuarios buscar eventos específicos por nombre, artista o ubicación. Tras realizar la búsqueda, los resultados se muestran en una lista filtrada y actualizada en tiempo real, facilitando la exploración.
+
+- **Filtro de géneros musicales:** Dentro de la vista de conciertos, se incluye un icono de filtro que despliega una barra lateral con diferentes géneros musicales. De esta manera, el usuario puede seleccionar uno o varios géneros para personalizar su experiencia y visualizar únicamente los conciertos que coincidan con sus preferencias musicales.
+
+- **Búsqueda de comunidades:** En la pestaña de Comunidades, los usuarios disponen de una barra de búsqueda que les permite encontrar grupos afines a sus intereses, ya sea por nombre, temática o popularidad. Esto fomenta la conexión entre fans con gustos similares.
+
+- **Navegación guiada en la Landing Page:** En la Landing Page, el menú de navegación (navbar) actúa como un sistema de búsqueda estructurado por secciones. Incluye accesos directos a:
+
+	- Inicio: Vista principal de presentación del proyecto.
+
+	- Para Fans: Sección que muestra los beneficios y funcionalidades pensadas para los usuarios fanáticos.
+
+	- Para Artistas: Espacio destinado a mostrar las ventajas y herramientas disponibles para músicos y creadores.
+
+	- Descargar: Botón que redirige directamente a la tienda de aplicaciones para obtener la versión móvil de GigMap.
+
+Cada uno de estos mecanismos busca optimizar la experiencia del usuario, reduciendo el tiempo de búsqueda y mejorando la accesibilidad de la información dentro del ecosistema GigMap.
+
 ### 4.2.5. Navigation Systems
+
+En esta sección, el equipo detalla las acciones y técnicas que guían a los usuarios a través del Landing Page y la aplicación móvil, asegurando una navegación fluida, coherente y centrada en el cumplimiento de sus objetivos. El propósito es que cada usuario pueda desplazarse intuitivamente por el contenido, comprendiendo de forma inmediata cómo interactuar con las diferentes secciones del producto.
+
+**Landing Page:**
+
+La navegación en la Landing Page está diseñada para ofrecer una experiencia clara, directa y atractiva desde el primer contacto con el usuario. Se emplea una estructura de navegación superior (navbar) con las siguientes secciones principales:
+
+- **Inicio:** Presenta una visión general del proyecto GigMap, introduciendo su propósito, características y propuesta de valor.
+
+- **Para Fans:** Expone los beneficios, funcionalidades y experiencias que la aplicación ofrece a los usuarios fanáticos, fomentando su participación dentro del ecosistema musical.
+
+- **Para Artistas:** Describe las herramientas, ventajas y oportunidades que GigMap pone a disposición de los músicos y creadores para conectar con sus audiencias.
+
+- **Descargar:**  Botón de acción que redirige al usuario hacia la tienda de aplicaciones para obtener la versión móvil de GigMap, promoviendo la transición del entorno web a la aplicación nativa.
+
+- **Footer con suscripción al newsletter:** En la parte inferior de la Landing Page se incluye un footer interactivo que permite a los usuarios suscribirse a un newsletter. Este espacio busca mantenerlos informados sobre novedades, lanzamientos y próximos eventos relacionados con GigMap, reforzando la conexión continua entre la aplicación y su comunidad.
+
+**Aplicación Mobile:**
+
+La navegación en la aplicación móvil de GigMap se centra en la simplicidad, accesibilidad y coherencia visual. Se utiliza una barra de navegación inferior compuesta por cuatro secciones principales, cada una diseñada para ofrecer un acceso rápido y claro a las funciones esenciales:
+
+- **Inicio:** Muestra el feed principal con secciones como“Descubre nuevos conciertos”, que redirige a la lista completa de eventos disponibles,“Nuevos artistas en GigMap”, y publicaciones recientes de los artistas que el usuario sigue. Esta vista prioriza la interacción y el descubrimiento de contenido relevante.
+
+- **Mapa:** Permite a los usuarios explorar un mapa interactivo que accede a su ubicación actual y muestra los conciertos disponibles cerca de ellos, fomentando la exploración geográfica de eventos musicales en tiempo real.
+
+- **Comunidades:** Espacio donde los usuarios pueden unirse a comunidades existentes, crear nuevas y visualizar aquellas de las que ya forman parte, promoviendo la interacción social y el sentido de pertenencia dentro de la aplicación.
+
+- **Perfil:** Sección destinada al perfil del usuario, donde puede visualizar su información personal, historial de actividad y editar sus datos o preferencias, manteniendo el control sobre su identidad dentro de GigMap.
 
 ## 4.3. Landing Page UI Design
 
+Enlace del Figma: `https://www.figma.com/design/kx1hI9H7x75FPcPnvh2uCL/GIGMAP?node-id=0-1&t=JDi2DtF5QxU2FIWM-1`
+
 ### 4.3.1. Landing Page Wireframe
+
+En esta sección se presentan los wireframes del Landing Page diseñados para su visualización en navegadores web de escritorio. La propuesta refleja la aplicación de los principios de diseño visual, los elementos de composición y los fundamentos de diseño inclusivo, garantizando una experiencia accesible y coherente para todo tipo de usuarios. Asimismo, la estructura de los wireframes evidencia la arquitectura de información planteada, priorizando la jerarquía visual, la claridad en la navegación y la fácil identificación de secciones clave como “Inicio", "Para Fans” y “Para Artistas"
+
+**Sección de Inicio:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landingwireframe0.png" alt="1" width="500">
+</p>
+
+**Sección Para Fans:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landingwireframe.png" alt="1" width="500">
+</p>
+
+**Sección Para Artistas:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landingwireframe2.png" alt="1" width="500">
+</p>
 
 ### 4.3.2. Landing Page Mock-up
 
+En esta sección se presentan los mockups finales del Landing Page, los cuales representan la materialización visual del diseño propuesto en los wireframes. Estos mockups muestran la aplicación coherente de la paleta de colores, los principios de diseño inclusivo y los lineamientos de estilo general definidos previamente. Además, reflejan la identidad visual de GigMap, transmitiendo una imagen moderna, profesional y alineada con su propósito: conectar a fans y artistas a través de una experiencia digital atractiva y funcional. La composición mantiene una jerarquía visual clara y una navegación intuitiva que facilita la exploración del sitio.
+
+**Sección de inicio:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-mock-1.png" alt="1" width="500">
+</p>
+
+**Sección Para Fans:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-mock-2.png" alt="1" width="500">
+</p>
+
+**Sección Para Artistas:**
+
+<p align="center">
+  <img src="assets/images/product-desing/landing-page-ui-desing/landing-mock-3.png" alt="1" width="500">
+</p>
+
 ## 4.4. Mobile Applications UX/UI Design
+
+Enlace del Figma: `https://www.figma.com/design/kx1hI9H7x75FPcPnvh2uCL/GIGMAP?node-id=0-1&t=JDi2DtF5QxU2FIWM-1`
 
 ### 4.4.1. Mobile Applications Wireframes
 
+En esta sección se presentan los wireframes de la aplicación móvil, que representan de manera esquemática la estructura y disposición de los elementos en cada pantalla. Estos wireframes permiten visualizar la jerarquía de contenido, los flujos de navegación y las interacciones principales, sirviendo como guía para el diseño visual posterior. Además, facilitan la identificación de mejoras en la experiencia de usuario antes de avanzar a la etapa de prototipado.
+
+SEGMENTO OBJETIVO: ARTISTAS
+
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cero.png" alt="1" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-dos.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-tres.png" alt="3" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cuatro.png" alt="4" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cinco.png" alt="5" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-seis.png" alt="6" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-ocho.png" alt="8" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-nueve.png" alt="9" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-diez.png" alt="10" width="800">
+</p>
+
+SEGMENTO OBJETIVO: FANS
+
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cerofan.png" alt="1" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-dos.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-tres.png" alt="3" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cuatro.png" alt="4" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-cinco.png" alt="5" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-seis.png" alt="6" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-siete.png" alt="7" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-ocho.png" alt="8" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-nueve.png" alt="9" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-wireframes-diez.png" alt="10" width="800">
+</p>
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+En esta sección se presentan los Wireflows de las aplicaciones móviles, diseñados para reflejar los distintos User Goals y considerando los User Persona correspondientes. Cada Wireflow muestra cómo los usuarios interactúan con la aplicación, incluyendo los cambios de estado en las pantallas a medida que avanzan por los flujos.
+
+SEGMENTO OBJETIVO: ARTISTAS
+
+**Wireflow 1: Registro e Inicio de Sesión**
+
+El usuario ingresa a la aplicación y decide si registrarse o iniciar sesión. Luego selecciona su tipo de cuenta, ya sea artista o fan, completa sus datos y finalmente accede satisfactoriamente a la aplicación.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow1.png" alt="Wireflow 1" width="800"> </p>
+
+**Wireflow 2: Filtrado de Conciertos por Género Musical**
+
+El usuario entra a la pestaña de conciertos y elige la opción de filtrar. Selecciona el género musical de su preferencia y visualiza únicamente los conciertos correspondientes a dicho género.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow2.png" alt="Wireflow 2" width="800"> </p>
+
+**Wireflow 3: Visualización y Marcado de Asistencia a un Concierto**
+
+Desde la lista de conciertos, el usuario selecciona el concierto de interés. Revisa la información detallada, marca su asistencia y consulta la ubicación del evento en el mapa.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow3.png" alt="Wireflow 3" width="800"> </p>
+
+**Wireflow 4: Unión a una Comunidad**
+
+El usuario accede a la pestaña de comunidades y explora las opciones disponibles. Selecciona una comunidad de interés, revisa su información y presiona el botón “Unirse”, completando la acción satisfactoriamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow4.png" alt="Wireflow 4" width="800"> </p>
+
+**Wireflow 5: Creación de una Comunidad**
+
+El usuario entra a la sección de comunidades y selecciona “Crear comunidad”. Completa el formulario con el nombre, descripción e imagen de la comunidad y envía los datos, registrando la comunidad exitosamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow5.png" alt="Wireflow 5" width="800"> </p>
+
+**Wireflow 6: Seguir a un Usuario desde un Concierto**
+
+El usuario revisa la lista de asistentes a un concierto y selecciona el perfil de otro usuario. Visualiza su información y presiona “Seguir”, completando la acción satisfactoriamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow6.png" alt="Wireflow 6" width="800"> </p>
+
+**Wireflow 7: Visualizar Perfil de Otro Usuario desde un Concierto**
+
+El usuario selecciona un perfil desde la lista de asistentes. Visualiza conciertos asistidos y por asistir, likes y comunidades, explorando todo el contenido disponible del otro usuario.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow7.png" alt="Wireflow 7" width="800"> </p>
+
+**Wireflow 8: Visualizar Información de un Concierto desde el Mapa**
+El usuario abre el mapa interactivo y selecciona un concierto. Accede a la información detallada del evento, incluyendo ubicación, fecha y otros detalles importantes.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow8.png" alt="Wireflow 8" width="800"> </p>
+
+**Wireflow 9: Crear Concierto**
+
+El usuario entra a la sección de conciertos y elige “Crear concierto”. Completa el formulario con todos los datos del evento y envía la información, registrando el concierto satisfactoriamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow9.png" alt="Wireflow 9" width="800"> </p>
+
+**Wireflow 11: Editar Perfil de Usuario**
+
+El usuario accede a su perfil, selecciona “Editar perfil” y modifica los datos personales. Guarda los cambios y actualiza su perfil satisfactoriamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow11.png" alt="Wireflow 11" width="800"> </p>
+
+**Wireflow 12: Acceso a Notificaciones**
+
+El usuario se encuentra en cualquier sección de la aplicación y presiona el botón de notificaciones. Accede a su bandeja y revisa alertas, mensajes y eventos relevantes.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow12.png" alt="Wireflow 12" width="800"> </p>
+
+SEGMENTO OBJETIVO: FANS
+
+**Wireflow 1: Registro e Inicio de Sesión**
+
+El usuario ingresa a la aplicación y decide si registrarse o iniciar sesión. Luego selecciona su tipo de cuenta: Fan, completa sus datos y finalmente accede satisfactoriamente a la aplicación.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow1.png" alt="Wireflow 1" width="800"> </p>
+
+**Wireflow 2: Filtrado de Conciertos por Género Musical**
+
+El usuario entra a la pestaña de conciertos y elige la opción de filtrar. Selecciona el género musical de su preferencia y visualiza únicamente los conciertos correspondientes a dicho género.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow2.png" alt="Wireflow 2" width="800"> </p>
+
+**Wireflow 3: Visualización y Marcado de Asistencia a un Concierto**
+
+Desde la lista de conciertos, el usuario selecciona el concierto de interés. Revisa la información detallada, marca su asistencia y consulta la ubicación del evento en el mapa.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow3.png" alt="Wireflow 3" width="800"> </p>
+
+**Wireflow 4: Unión a una Comunidad**
+
+El usuario accede a la pestaña de comunidades y explora las opciones disponibles. Selecciona una comunidad de interés, revisa su información y presiona el botón “Unirse”, completando la acción satisfactoriamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow4.png" alt="Wireflow 4" width="800"> </p>
+
+**Wireflow 5: Creación de una Comunidad**
+
+El usuario entra a la sección de comunidades y selecciona “Crear comunidad”. Completa el formulario con el nombre, descripción e imagen de la comunidad y envía los datos, registrando la comunidad exitosamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow5.png" alt="Wireflow 5" width="800"> </p>
+
+**Wireflow 6: Seguir a un Usuario desde un Concierto**
+
+El usuario revisa la lista de asistentes a un concierto y selecciona el perfil de otro usuario. Visualiza su información y presiona “Seguir”, completando la acción satisfactoriamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow6.png" alt="Wireflow 6" width="800"> </p>
+
+**Wireflow 7: Visualizar Perfil de Otro Usuario desde un Concierto**
+
+El usuario selecciona un perfil desde la lista de asistentes. Visualiza conciertos asistidos y por asistir, likes y comunidades, explorando todo el contenido disponible del otro usuario.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow7.png" alt="Wireflow 7" width="800"> </p>
+
+**Wireflow 8: Visualizar Información de un Concierto desde el Mapa**
+El usuario abre el mapa interactivo y selecciona un concierto. Accede a la información detallada del evento, incluyendo ubicación, fecha y otros detalles importantes.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow8.png" alt="Wireflow 8" width="800"> </p>
+
+**Wireflow 9: Crear Evento Relacionado a un Concierto**
+
+El usuario visualiza un concierto existente y selecciona la opción “Crear evento relacionado”. Llena el formulario con los datos del nuevo evento y lo asocia al concierto principal.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow10.png" alt="Wireflow 10" width="800"> </p>
+
+**Wireflow 10: Editar Perfil de Usuario**
+
+El usuario accede a su perfil, selecciona “Editar perfil” y modifica los datos personales. Guarda los cambios y actualiza su perfil satisfactoriamente.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow11.png" alt="Wireflow 11" width="800"> </p>
+
+**Wireflow 11: Acceso a Notificaciones**
+
+El usuario se encuentra en cualquier sección de la aplicación y presiona el botón de notificaciones. Accede a su bandeja y revisa alertas, mensajes y eventos relevantes.
+
+<p align="center"> <img src="assets/images/product-desing/wireflows/wireflow12.png" alt="Wireflow 12" width="800"> </p>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+En esta sección se presentan los mockups de la aplicación mobile de GigMap, los cuales ilustran la versión interactiva de la aplicación diseñada para móviles. Estos mockups reflejan la integración de los principios de diseño centrado en el usuario, manteniendo la coherencia visual con la identidad de marca establecida en el Landing Page. Se prioriza una interfaz limpia, moderna y funcional, donde la paleta cromática, la tipografía Inter y los elementos de navegación trabajan en conjunto para ofrecer una experiencia fluida.
+
+Cada pantalla busca transmitir claridad en las acciones, accesibilidad y una estructura visual que facilite la exploración de conciertos, comunidades y perfiles dentro del ecosistema GigMap.
+
+SEGMENTO OBJETIVO: ARTISTAS
+
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-unoactualizado.png" alt="1" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-dos.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-tres.png" alt="3" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-cuatro.png" alt="4" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-cinco.png" alt="5" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-seis.png" alt="6" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-siete.png" alt="7" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-ocho.png" alt="8" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-nueve.png" alt="9" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-diez.png" alt="10" width="800">
+</p>
+
+SEGMENTO OBJETIVO: FANS
+
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-unofans.png" alt="1" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-dos.png" alt="2" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-tres.png" alt="3" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-cuatro.png" alt="4" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-cinco.png" alt="5" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-seis.png" alt="6" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-siete.png" alt="7" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-ochodos.png" alt="8" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-nueve.png" alt="9" width="800"><br>
+  <img src="assets/images/product-desing/mobile-applications/mobile-mockups-diez.png" alt="10" width="800">
+</p>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+Esta sección presenta la propuesta de User Flows elaborados en Lucidchart, donde se representan las rutas que los usuarios siguen dentro de las diferentes aplicaciones que conforman el proyecto. Cada flujo está diseñado en función de los User Persona y sus respectivos User Goals, evidenciando tanto el camino principal o esperado (happy path) como las rutas alternativas (unhappy paths). Los diagramas incluyen los mockups de las pantallas involucradas, mostrando la secuencia lógica de acciones que conducen al cumplimiento de los objetivos del usuario. 
+
+Además, se emplea un sistema de colores para diferenciar cada tipo de flujo, garantizando una lectura clara e intuitiva.
+
+<p align="center"> 
+<img src="assets/images/product-desing/user-flows/user-flows-paths.png" alt="User Flows Paths" width="800"> </p>
+
+SEGMENTO OBJETIVO: ARTISTAS
+
+**User Flow 1: Registro e Inicio de Sesión**
+
+Este flujo muestra el proceso inicial en GigMap, donde el usuario elige entre registrarse o iniciar sesión. Si decide registrarse, selecciona su tipo de cuenta: Artista y completa el formulario correspondiente. Finalmente, accede satisfactoriamente a la aplicación para comenzar a explorar sus funciones.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflowart.png" alt="User Flow 1" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow2.png" alt="User Flow 2" width="800">
+</p>
+
+**User Flow 2: Filtrado de Conciertos por Género Musical**
+
+Este flujo representa el proceso mediante el cual el usuario accede a la sección de conciertos desde la pantalla principal. Una vez allí, utiliza la función de filtro para seleccionar su género musical preferido. Finalmente, la aplicación muestra únicamente los conciertos programados que coinciden con el género elegido, ofreciendo una experiencia personalizada.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow3.png" alt="User Flow 3" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow4.png" alt="User Flow 4" width="800">
+</p>
+
+**User Flow 3: Visualización y Marcado de Asistencia a un Concierto**
+
+En este flujo, el usuario navega por la pestaña de conciertos y selecciona uno de su interés. Al ingresar, accede a la información detallada del evento, como fecha, ubicación y descripción. Finalmente, puede marcar su asistencia y visualizar la localización del concierto directamente en el mapa interactivo.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow5.png" alt="User Flow 5" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow6.png" alt="User Flow 6" width="800">
+</p>
+
+**User Flow 4: Unión a una Comunidad**
+
+En este flujo, el usuario accede a la pestaña de comunidades y explora las opciones disponibles. Al encontrar una comunidad de su interés, selecciona para ver su información detallada. Finalmente, presiona el botón de “Unirse”, completando satisfactoriamente su incorporación a la comunidad elegida.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow7.png" alt="User Flow 7" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow8.png" alt="User Flow 8" width="800">
+</p>
+
+**User Flow 5: Creación de una Comunidad**
+
+En este flujo, el usuario navega hasta la pestaña de comunidades y selecciona la opción “Crear comunidad”. Luego, completa el formulario con los datos solicitados, como nombre, descripción e imagen representativa. Al enviar el formulario, la comunidad se crea exitosamente y queda registrada en la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow9.png" alt="User Flow 9" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow10.png" alt="User Flow 10" width="800">
+</p>
+
+**User Flow 6: Seguir a un Usuario desde un Concierto**
+
+En este flujo, el usuario revisa la lista de asistentes a un concierto y selecciona el perfil de alguien que le interesa. Tras visualizar su información, decide seguirlo presionando el botón correspondiente. La acción se completa exitosamente, estableciendo la conexión entre ambos usuarios dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow11.png" alt="User Flow 11" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow12.png" alt="User Flow 12" width="800">
+</p>
+
+**User Flow 7: Visualizar Perfil de Otro Usuario desde un Concierto**
+
+En este flujo, el usuario accede a la lista de asistentes de un concierto y selecciona el perfil de otro usuario. Al ingresar, puede visualizar información detallada como los conciertos a los que ha asistido o planea asistir, el contenido al que ha dado like y las comunidades a las que pertenece, promoviendo la interacción y el sentido de comunidad dentro de GigMap.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow13.png" alt="User Flow 13" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow14.png" alt="User Flow 14" width="800">
+</p>
+
+**User Flow 8: Visualizar Información de un Concierto desde el Mapa**
+
+En este flujo, el usuario navega por el mapa interactivo y selecciona un concierto cercano. Al hacer clic, se despliega una vista detallada con toda la información relevante del evento, incluyendo ubicación, fecha, artistas participantes y opciones para marcar asistencia, brindando una experiencia intuitiva y contextual.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow15.png" alt="User Flow 15" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow16.png" alt="User Flow 16" width="800">
+</p>
+
+**User Flow 9: Crear Concierto**
+
+En este flujo, el usuario accede a la sección de conciertos y selecciona la opción “Crear concierto”. Luego, completa un formulario con información clave como nombre del evento, fecha, ubicación, género musical y artistas participantes. Finalmente, confirma la creación, generando exitosamente un nuevo concierto dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow17.png" alt="User Flow 17" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow18.png" alt="User Flow 18" width="800">
+</p>
+
+**User Flow 11: Editar Perfil de Usuario**
+
+En este flujo, el usuario accede a su perfil y selecciona la opción “Editar perfil”. Luego, modifica los datos personales como nombre, foto, descripción y preferencias. Al guardar los cambios, el perfil se actualiza exitosamente, reflejando la información editada dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow21.png" alt="User Flow 21" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow22.png" alt="User Flow 22" width="800">
+</p>
+
+**User Flow 12: Acceso a Notificaciones**
+
+En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes. 
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow23.png" alt="User Flow 23" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow24.png" alt="User Flow 24" width="800">
+</p>
+
+SEGMENTO OBJETIVO: FANS
+
+**User Flow 1: Registro e Inicio de Sesión**
+
+Este flujo muestra el proceso inicial en GigMap, donde el usuario elige entre registrarse o iniciar sesión. Si decide registrarse, selecciona su tipo de cuenta: Fan y completa el formulario correspondiente. Finalmente, accede satisfactoriamente a la aplicación para comenzar a explorar sus funciones.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflownuevo.png" alt="User Flow 1" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow2.png" alt="User Flow 2" width="800">
+</p>
+
+**User Flow 2: Filtrado de Conciertos por Género Musical**
+
+Este flujo representa el proceso mediante el cual el usuario accede a la sección de conciertos desde la pantalla principal. Una vez allí, utiliza la función de filtro para seleccionar su género musical preferido. Finalmente, la aplicación muestra únicamente los conciertos programados que coinciden con el género elegido, ofreciendo una experiencia personalizada.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow3.png" alt="User Flow 3" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow4.png" alt="User Flow 4" width="800">
+</p>
+
+**User Flow 3: Visualización y Marcado de Asistencia a un Concierto**
+
+En este flujo, el usuario navega por la pestaña de conciertos y selecciona uno de su interés. Al ingresar, accede a la información detallada del evento, como fecha, ubicación y descripción. Finalmente, puede marcar su asistencia y visualizar la localización del concierto directamente en el mapa interactivo.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow5.png" alt="User Flow 5" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow6.png" alt="User Flow 6" width="800">
+</p>
+
+**User Flow 4: Unión a una Comunidad**
+
+En este flujo, el usuario accede a la pestaña de comunidades y explora las opciones disponibles. Al encontrar una comunidad de su interés, selecciona para ver su información detallada. Finalmente, presiona el botón de “Unirse”, completando satisfactoriamente su incorporación a la comunidad elegida.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow7.png" alt="User Flow 7" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow8.png" alt="User Flow 8" width="800">
+</p>
+
+**User Flow 5: Creación de una Comunidad**
+
+En este flujo, el usuario navega hasta la pestaña de comunidades y selecciona la opción “Crear comunidad”. Luego, completa el formulario con los datos solicitados, como nombre, descripción e imagen representativa. Al enviar el formulario, la comunidad se crea exitosamente y queda registrada en la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow9.png" alt="User Flow 9" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow10.png" alt="User Flow 10" width="800">
+</p>
+
+**User Flow 6: Seguir a un Usuario desde un Concierto**
+
+En este flujo, el usuario revisa la lista de asistentes a un concierto y selecciona el perfil de alguien que le interesa. Tras visualizar su información, decide seguirlo presionando el botón correspondiente. La acción se completa exitosamente, estableciendo la conexión entre ambos usuarios dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow11.png" alt="User Flow 11" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow12.png" alt="User Flow 12" width="800">
+</p>
+
+**User Flow 7: Visualizar Perfil de Otro Usuario desde un Concierto**
+
+En este flujo, el usuario accede a la lista de asistentes de un concierto y selecciona el perfil de otro usuario. Al ingresar, puede visualizar información detallada como los conciertos a los que ha asistido o planea asistir, el contenido al que ha dado like y las comunidades a las que pertenece, promoviendo la interacción y el sentido de comunidad dentro de GigMap.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow13.png" alt="User Flow 13" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow14.png" alt="User Flow 14" width="800">
+</p>
+
+**User Flow 8: Visualizar Información de un Concierto desde el Mapa**
+
+En este flujo, el usuario navega por el mapa interactivo y selecciona un concierto cercano. Al hacer clic, se despliega una vista detallada con toda la información relevante del evento, incluyendo ubicación, fecha, artistas participantes y opciones para marcar asistencia, brindando una experiencia intuitiva y contextual.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow15.png" alt="User Flow 15" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow16.png" alt="User Flow 16" width="800">
+</p>
+
+**User Flow 9: Crear Evento Relacionado a un Concierto**
+
+En este flujo, el usuario se encuentra dentro de la información detallada de un concierto y selecciona la opción "Crear evento relacionado". A continuación, completa un formulario con los datos del nuevo evento, como título, descripción y fecha. Tras confirmar, el sistema asocia exitosamente el evento creado con el concierto principal, ampliando la experiencia y conexión entre actividades musicales.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow19.png" alt="User Flow 19" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow20.png" alt="User Flow 20" width="800">
+</p>
+
+**User Flow 10: Editar Perfil de Usuario**
+
+En este flujo, el usuario accede a su perfil y selecciona la opción “Editar perfil”. Luego, modifica los datos personales como nombre, foto, descripción y preferencias. Al guardar los cambios, el perfil se actualiza exitosamente, reflejando la información editada dentro de la aplicación.
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow21.png" alt="User Flow 21" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow22.png" alt="User Flow 22" width="800">
+</p>
+
+**User Flow 11: Acceso a Notificaciones**
+
+En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes. 
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow23.png" alt="User Flow 23" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/product-desing/user-flows/userflow24.png" alt="User Flow 24" width="800">
+</p>
 
 ## 4.5. Mobile Applications Prototyping
 
+En esta sección se presentan los criterios fundamentales que guían las decisiones de interacción dentro de GigMap, asegurando que cada acción del usuario sea intuitiva y eficiente. Se evidencia la relación directa con la arquitectura de información, especialmente en lo referente a los sistemas de navegación y los tipos de interacciones seleccionadas. Para ilustrar estos flujos, se realizará el prototipado en Figma, mostrando de manera visual y práctica los principales flujos de interacción de los prototipos.
+
 ### 4.5.1. Android Mobile Applications Prototyping
 
-### 4.5.2. iOS Mobile Applications Prototyping
+Enlace del vídeo: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704_upc_edu_pe/EdMwRQRxjNpHgq-F-NzEaXgBSkQBbjy5avREhG2EykMVYQ?e=TTI1lT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
 
-## 4.6. Web Applications UX/UI Design
-
-### 4.6.1. Web Applications Wireframes
-
-### 4.6.2. Web Applications Wireflow Diagrams
-
-### 4.6.3. Web Applications Mock-ups
-
-### 4.6.4. Web Applications User Flow Diagrams
-
-## 4.7. Web Applications Prototyping
+<p align="center">
+  <img src="assets/images/product-desing/mobile-applications/mobile-prototyping.png" alt="User Flow 24" width="800">
+</p>
 
 ## 4.8. Domain-Driven Software Architecture
 
