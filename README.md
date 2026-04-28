@@ -1728,6 +1728,850 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
   </tbody>
 </table>
 
+**Technical Stories:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-01</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Crear concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint POST en /api/v1/concerts que permita crear conciertos con toda su información.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Creación exitosa de concierto</strong><br>
+        Dado que el cliente envía una petición POST a /api/v1/concerts con un body válido<br>
+        Cuando los datos del concierto están completos y son correctos<br>
+        Entonces el sistema guarda el concierto en la base de datos<br>
+        Y responde con un código 201 Created
+        <br><br>
+        <strong>Escenario: Error por datos inválidos</strong><br>
+        Dado que el cliente envía una petición POST a /api/v1/concerts<br>
+        Y el body contiene datos incompletos o inválidos<br>
+        Cuando el sistema valida la información<br>
+        Entonces rechaza la solicitud<br>
+        Y responde con un código 400 Bad Request
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-02</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Crear publicación en comunidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint POST en /api/v1/posts que permita a un usuario crear publicaciones dentro de una comunidad.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Creación exitosa de publicación</strong><br>
+        Dado que el usuario se encuentra dentro de una comunidad válida<br>
+        Y envía una petición POST a /api/v1/posts con contenido (mensaje y/o imagen)<br>
+        Cuando los datos son válidos<br>
+        Entonces el sistema guarda la publicación en la base de datos<br>
+        Y la publicación aparece en el feed de la comunidad
+        <br><br>
+        <strong>Escenario: Error por contenido inválido</strong><br>
+        Dado que el usuario envía una petición POST a /api/v1/posts<br>
+        Y no incluye contenido mínimo requerido (mensaje o imagen)<br>
+        Cuando el sistema valida la solicitud<br>
+        Entonces rechaza la operación<br>
+        Y responde con un código 400 Bad Request
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-03</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Listar comunidades de usuario</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint GET en /api/v1/communities/joined/{userId} que permita obtener las comunidades a las que pertenece un usuario.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Comunidades obtenidas correctamente</strong><br>
+        Dado que el usuario está autenticado<br>
+        Y existe un usuario con el userId proporcionado<br>
+        Cuando se realiza una petición GET a /api/v1/communities/joined/{userId}<br>
+        Entonces el sistema devuelve la lista de comunidades a las que pertenece el usuario
+        <br><br>
+        <strong>Escenario: Usuario sin comunidades</strong><br>
+        Dado que el usuario está autenticado<br>
+        Y el usuario no pertenece a ninguna comunidad<br>
+        Cuando se realiza una petición GET a /api/v1/communities/joined/{userId}<br>
+        Entonces el sistema devuelve una lista vacía
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-04</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Obtener todos los conciertos</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint GET en /api/v1/concerts que devuelva todos los conciertos públicos para mostrarlos en la sección de exploración.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Conciertos obtenidos correctamente</strong><br>
+        Dado que el usuario accede a la sección de exploración<br>
+        Cuando se realiza una petición GET a /api/v1/concerts<br>
+        Entonces el sistema devuelve la lista de conciertos públicos disponibles
+        <br><br>
+        <strong>Escenario: Sin conciertos disponibles</strong><br>
+        Dado que no existen conciertos públicos registrados<br>
+        Cuando se realiza una petición GET a /api/v1/concerts<br>
+        Entonces el sistema devuelve una lista vacía
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-05</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Confirmar asistencia a concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint POST en /api/v1/concerts/{concertId}/attendees que permita a los usuarios confirmar su asistencia a un concierto.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Asistencia confirmada correctamente</strong><br>
+        Dado que el usuario está autenticado<br>
+        Y existe un concierto con el concertId proporcionado<br>
+        Cuando se realiza una petición POST a /api/v1/concerts/{concertId}/attendees<br>
+        Entonces el sistema registra la asistencia del usuario en la base de datos
+        <br><br>
+        <strong>Escenario: Usuario ya registrado</strong><br>
+        Dado que el usuario ya confirmó su asistencia previamente<br>
+        Cuando se realiza una petición POST a /api/v1/concerts/{concertId}/attendees<br>
+        Entonces el sistema rechaza la operación<br>
+        Y responde con un código 400 Bad Request
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-06</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Cancelar asistencia a concierto</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint DELETE en /api/v1/concerts/{concertId}/attendees que permita a los usuarios cancelar su asistencia a un concierto.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Asistencia cancelada correctamente</strong><br>
+        Dado que el usuario está autenticado<br>
+        Y está registrado como asistente en el concierto<br>
+        Cuando se realiza una petición DELETE a /api/v1/concerts/{concertId}/attendees<br>
+        Entonces el sistema elimina su asistencia de la base de datos
+        <br><br>
+        <strong>Escenario: Usuario no registrado</strong><br>
+        Dado que el usuario no está registrado como asistente en el concierto<br>
+        Cuando se realiza una petición DELETE a /api/v1/concerts/{concertId}/attendees<br>
+        Entonces el sistema rechaza la operación<br>
+        Y responde con un código 400 Bad Request
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-07</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Obtener comunidades</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint GET en /api/v1/communities que devuelva todas las comunidades disponibles para unirse.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Comunidades obtenidas correctamente</strong><br>
+        Dado que el usuario accede a la vista de comunidades<br>
+        Cuando se realiza una petición GET a /api/v1/communities<br>
+        Entonces el sistema devuelve la lista completa de comunidades disponibles
+        <br><br>
+        <strong>Escenario: Sin comunidades disponibles</strong><br>
+        Dado que no existen comunidades registradas<br>
+        Cuando se realiza una petición GET a /api/v1/communities<br>
+        Entonces el sistema devuelve una lista vacía
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-08</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Unirse a una comunidad</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint POST en /api/v1/communities/{communityId}/join que permita a los usuarios unirse a una comunidad.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Unión exitosa a comunidad</strong><br>
+      Dado que el usuario está autenticado<br>
+      Y la comunidad existe<br>
+      Cuando realiza POST a /api/v1/communities/{communityId}/join<br>
+      Entonces queda registrado como miembro de la comunidad
+      <br><br>
+      <strong>Escenario: Usuario ya es miembro</strong><br>
+      Dado que el usuario ya pertenece a la comunidad<br>
+      Cuando realiza POST al endpoint<br>
+      Entonces el sistema responde 400 Bad Request
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-09</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Salir de una comunidad</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/communities/{communityId}/join para permitir que los usuarios abandonen una comunidad.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Salida exitosa de comunidad</strong><br>
+      Dado que el usuario pertenece a la comunidad<br>
+      Cuando realiza DELETE a /api/v1/communities/{communityId}/join<br>
+      Entonces se elimina su membresía
+      <br><br>
+      <strong>Escenario: Usuario no es miembro</strong><br>
+      Dado que el usuario no pertenece a la comunidad<br>
+      Cuando realiza DELETE al endpoint<br>
+      Entonces responde 400 Bad Request
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-10</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Obtener concierto por ID</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/concerts/{id} que devuelva los datos de un concierto específico.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Concierto encontrado</strong><br>
+      Dado que existe un concierto con el id<br>
+      Cuando se hace GET a /api/v1/concerts/{id}<br>
+      Entonces se devuelven sus datos
+      <br><br>
+      <strong>Escenario: Concierto no existe</strong><br>
+      Dado que no existe el id<br>
+      Cuando se hace GET<br>
+      Entonces responde 404 Not Found
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-11</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Eliminar concierto</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/concerts/{id} que permita eliminar un concierto.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Eliminación exitosa</strong><br>
+      Dado que el concierto existe<br>
+      Cuando se hace DELETE<br>
+      Entonces el concierto se elimina
+      <br><br>
+      <strong>Escenario: Concierto no encontrado</strong><br>
+      Dado que no existe el id<br>
+      Cuando se hace DELETE<br>
+      Entonces responde 404 Not Found
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-12</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Actualizar concierto</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint PUT en /api/v1/concerts/{id} que permita actualizar toda la información de un concierto.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Concierto actualizado correctamente</strong><br>
+      Dado que el usuario es organizador<br>
+      Y existe un concierto con el id proporcionado<br>
+      Cuando hace el PUT con todos los datos actualizados del concierto<br>
+      Entonces se actualizan todos los campos del concierto en el sistema<br>
+      Y se devuelve el concierto con la información actualizada
+      <br><br>
+      <strong>Escenario: Concierto no encontrado</strong><br>
+      Dado que no existe el id<br>
+      Cuando se hace PUT<br>
+      Entonces responde 404 Not Found
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-13</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Obtener usuario por ID</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/users/{id} para ver el perfil público de un usuario.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Usuario encontrado</strong><br>
+      Dado que el ID es válido<br>
+      Cuando se hace GET a /api/v1/users/{id}<br>
+      Entonces devuelve nombre, imagen y comunidades visibles
+      <br><br>
+      <strong>Escenario: Usuario no encontrado</strong><br>
+      Dado que el ID no existe<br>
+      Cuando se hace GET<br>
+      Entonces responde 404 Not Found
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-14</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Actualizar perfil de usuario</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint PUT en /api/v1/users/{id} para permitir al usuario modificar su información personal.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Actualización exitosa</strong><br>
+      Dado que el usuario envía un body válido<br>
+      Cuando se hace PUT a /api/v1/users/{id}<br>
+      Entonces se actualiza su perfil
+      <br><br>
+      <strong>Escenario: Datos inválidos</strong><br>
+      Dado que el body contiene información inválida<br>
+      Cuando se procesa la solicitud<br>
+      Entonces responde 400 Bad Request
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-15</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Obtener todos los usuarios</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/users que liste todos los usuarios registrados en la aplicación.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Usuarios obtenidos correctamente</strong><br>
+      Dado que se realiza una petición GET a /api/v1/users<br>
+      Cuando el sistema procesa la solicitud<br>
+      Entonces devuelve la lista completa de usuarios
+      <br><br>
+      <strong>Escenario: Sin usuarios registrados</strong><br>
+      Dado que no existen usuarios en el sistema<br>
+      Cuando se hace GET<br>
+      Entonces devuelve una lista vacía
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-16</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Dar like a publicación</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint POST en /api/v1/posts/{postId}/like que registre un like del usuario a un post.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Like registrado correctamente</strong><br>
+      Dado que el usuario está autenticado<br>
+      Y el post existe<br>
+      Cuando realiza POST a /api/v1/posts/{postId}/like<br>
+      Entonces se incrementa el contador de likes
+      <br><br>
+      <strong>Escenario: Usuario ya dio like</strong><br>
+      Dado que el usuario ya dio like previamente<br>
+      Cuando intenta dar like nuevamente<br>
+      Entonces el sistema responde 400 Bad Request
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-17</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Quitar like a publicación</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/posts/{postId}/unlike para eliminar el like de un usuario a una publicación.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Like eliminado correctamente</strong><br>
+      Dado que el usuario ya dio like<br>
+      Cuando realiza DELETE a /api/v1/posts/{postId}/unlike<br>
+      Entonces se reduce el contador de likes
+      <br><br>
+      <strong>Escenario: Usuario no había dado like</strong><br>
+      Dado que el usuario no ha dado like previamente<br>
+      Cuando intenta eliminar el like<br>
+      Entonces responde 404 Not Found
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-18</td><td>Developer</td><td>1</td><td>EP04 / EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Crear publicación en comunidad</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint POST en /api/v1/posts que permita crear publicaciones nuevas.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Publicación creada correctamente</strong><br>
+      Dado que el usuario está en una comunidad válida<br>
+      Y envía contenido (texto o imagen)<br>
+      Cuando se realiza POST a /api/v1/posts<br>
+      Entonces la publicación se guarda<br>
+      Y aparece en el feed
+      <br><br>
+      <strong>Escenario: Contenido inválido</strong><br>
+      Dado que no se envía contenido mínimo<br>
+      Cuando se procesa la solicitud<br>
+      Entonces responde 400 Bad Request
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-19</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Ver publicación por ID</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/posts/{id} para obtener el detalle de una publicación.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Publicación encontrada</strong><br>
+      Dado que el ID es válido<br>
+      Cuando se hace GET a /api/v1/posts/{id}<br>
+      Entonces se devuelven los detalles de la publicación
+      <br><br>
+      <strong>Escenario: Publicación no encontrada</strong><br>
+      Dado que el ID no existe<br>
+      Cuando se hace GET<br>
+      Entonces responde 404 Not Found
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-20</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Eliminar publicación por ID</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/posts/{id} para permitir que un usuario borre su publicación.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Eliminación exitosa</strong><br>
+      Dado que el usuario es el autor<br>
+      Y la publicación existe<br>
+      Cuando se hace DELETE a /api/v1/posts/{id}<br>
+      Entonces el post se elimina
+      <br><br>
+      <strong>Escenario: Publicación no encontrada</strong><br>
+      Dado que el ID no existe<br>
+      Cuando se hace DELETE<br>
+      Entonces responde 404 Not Found
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-21</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Ver publicaciones por comunidad</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/posts?communityId={communityId} que liste todas las publicaciones de una comunidad.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      Escenario 1: Publicaciones obtenidas correctamente<br>
+      Dado que el usuario accede a una comunidad<br>
+      Y existen publicaciones asociadas al communityId<br>
+      Cuando hace GET con el communityId<br>
+      Entonces se devuelve la lista de publicaciones de esa comunidad
+      <br><br>
+      Escenario 2: Comunidad sin publicaciones<br>
+      Dado que el usuario accede a una comunidad<br>
+      Y no existen publicaciones asociadas al communityId<br>
+      Cuando hace GET con el communityId<br>
+      Entonces se devuelve una lista vacía
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-22</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Registro de usuario</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint POST en /api/v1/auth/register para registrar nuevos usuarios con contraseña encriptada.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Registro exitoso</strong><br>
+      Dado que el usuario envía datos válidos<br>
+      Cuando se hace POST a /api/v1/auth/register<br>
+      Entonces se guarda el usuario<br>
+      <br><br>
+      <strong>Escenario: Email duplicado</strong><br>
+      Dado que el correo ya existe<br>
+      Cuando se intenta registrar<br>
+      Entonces el sistema responde 400 Bad Request
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-23</td><td>Developer</td><td>1</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Login de usuario</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint POST en /api/v1/auth/login que permita iniciar sesión con validación de credenciales.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Login exitoso</strong><br>
+      Dado que las credenciales son correctas<br>
+      Cuando se hace POST a /api/v1/auth/login<br>
+      Entonces se retorna un JWT
+      <br><br>
+      <strong>Escenario: Fallo de autenticación</strong><br>
+      Dado que las credenciales no son válidas<br>
+      Cuando se intenta iniciar sesión<br>
+      Entonces el sistema responde 400 Bad Request
+    </td></tr>
+  </tbody>
+</table>
+
+**Spike Stories:**
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SP-01</td><td>Developer</td><td>Alta</td><td>EP01</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Integración de mapa para conciertos</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como miembro del equipo, quiero investigar las distintas APIs de mapas disponibles para identificar cuál se adapta mejor a la visualización de conciertos en la aplicación.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Evaluación comparativa de APIs</strong><br>
+      Dado que se analizan distintas APIs de mapas<br>
+      Cuando se comparan en términos de facilidad de uso, costo y personalización<br>
+      Entonces se documenta una comparación clara entre las opciones evaluadas
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SP-02</td><td>Developer</td><td>Alta</td><td>EP02</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Viabilidad de notificaciones personalizadas</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como miembro del equipo, quiero investigar opciones para enviar notificaciones push personalizadas a los usuarios según sus intereses y actividad.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Evaluación de herramientas de notificación</strong><br>
+      Dado que se analizan herramientas de notificaciones push<br>
+      Cuando se evalúan funcionalidades como segmentación y compatibilidad<br>
+      Entonces se documenta la herramienta más adecuada
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SP-03</td><td>Developer</td><td>Alta</td><td>EP03</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Seguimiento de artistas y usuarios</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como miembro del equipo, quiero investigar cómo implementar un sistema escalable de seguimiento entre usuarios y artistas.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Diseño de modelo de datos</strong><br>
+      Dado que se requiere representar relaciones de seguimiento<br>
+      Cuando se diseña el modelo en base de datos<br>
+      Entonces se documenta una estructura eficiente y escalable
+      <br><br>
+      <strong>Escenario: Validación mediante prototipo</strong><br>
+      Dado que se implementa un prototipo básico<br>
+      Cuando se prueban endpoints de follow/unfollow<br>
+      Entonces se valida el impacto en funcionalidades como feed y notificaciones
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SP-04</td><td>Developer</td><td>Alta</td><td>EP03</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Interacción en comunidades</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como miembro del equipo, quiero investigar cómo implementar funcionalidades de interacción dentro de comunidades.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Diseño de estructura de comunidades</strong><br>
+      Dado que se requiere soportar posts, comentarios y reacciones<br>
+      Cuando se define el modelo de datos<br>
+      Entonces se documenta una estructura relacional adecuada
+      <br><br>
+      <strong>Escenario: Validación de interacción básica</strong><br>
+      Dado que se implementa un prototipo<br>
+      Cuando se prueban acciones como comentar y reaccionar<br>
+      Entonces se valida la viabilidad funcional de la comunidad
+    </td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SP-05</td><td>Developer</td><td>Alta</td><td>EP06</td></tr>
+    <tr><td><strong>Title</strong></td><td colspan="3">Revisión legal sobre datos de ubicación</td></tr>
+    <tr><td colspan="4"><strong>Description</strong></td></tr>
+    <tr><td colspan="4">Como miembro del equipo, quiero investigar la normativa sobre el uso de datos de geolocalización para asegurar cumplimiento legal.</td></tr>
+    <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
+    <tr><td colspan="4">
+      <strong>Escenario: Análisis de normativa vigente</strong><br>
+      Dado que se revisa la legislación aplicable<br>
+      Cuando se identifican requisitos legales sobre datos personales<br>
+      Entonces se documentan obligaciones y restricciones
+    </td></tr>
+  </tbody>
+</table>
+
 ## 3.3. Product Backlog
 
 ## 3.4. Impact Mapping
