@@ -3068,20 +3068,20 @@ Pasos para desplegar la Landing Page:
 
 Consideraciones antes del despliegue
 
-- Se debe contar con el **API del backend desplegado** en un servidor accesible externamente (Render en este caso).  
+- Se debe contar con el API del backend desplegado en un servidor accesible externamente (Render en este caso).  
 - Verificar que las rutas del backend estén configuradas correctamente en el proyecto móvil.
 
 Requerimientos previos
 
-- Repositorio de desarrollo del **API** en **GitHub**.  
-- Dispositivo **Android** en el que se pueda instalar la aplicación.  
+- Repositorio de desarrollo del API en **GitHub.  
+- Dispositivo Android en el que se pueda instalar la aplicación.  
 
 Pasos para desplegar la aplicación móvil
 
 - Activar el modo desarrollador en el dispositivo Android.  
 - Habilitar la depuración por USB.  
 - Conectar el dispositivo móvil a la computadora.  
-- Abrir **Android Studio** y seleccionar el proyecto de *igMap.  
+- Abrir **Android Studio** y seleccionar el proyecto de GigMap.  
 - Escoger el dispositivo en la lista de dispositivos disponibles.  
 - Hacer clic en **“Run” (Ejecutar)** para compilar e instalar la aplicación.  
 - Esperar a que el proceso finalice.  
