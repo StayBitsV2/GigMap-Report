@@ -4286,9 +4286,27 @@ Enlace del vídeo: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311704
 
 ### 4.8.1. Software Architecture Context Diagram
 
+El diagrama de contexto de GigMap muestra cómo la aplicación se relaciona con sus principales actores: Fans y Artistas. Los fans descubren conciertos cercanos, reciben alertas y comparten asistencia, mientras que los artistas publican y editan shows para interactuar con su audiencia. GigMap actúa como sistema central que conecta a ambos, facilitando la gestión y difusión de eventos musicales.
+
+![team member profile photo](assets/images/c4/Context_GigMap.png)
+
 ### 4.8.2. Software Architecture Container Diagrams
 
+El diagrama de contenedores detalla los elementos internos de GigMap. La aplicación móvil (Flutter/React Native) permite a los usuarios descubrir y gestionar conciertos, consumiendo los servicios expuestos por una API REST (Node.js/Spring Boot). Esta API coordina la lógica del sistema y persiste datos en una base MySQL. Además, se incluye una Landing Page (Next.js/React) que facilita el acceso rápido a información y registro de usuarios.
+
+![team member profile photo](assets/images/c4/Container_GigMap.png)
+
 ### 4.8.3. Software Architecture Components Diagrams
+
+![team member profile photo](assets/images/c4/BoundedConciertos_GigMap.png)
+
+![team member profile photo](assets/images/c4/BoundedComunidades_GigMap.png)
+
+![team member profile photo](assets/images/c4/BoundedEventos_GigMap.png)
+
+![team member profile photo](assets/images/c4/BoundedNotificaciones_GigMap.png)
+
+![team member profile photo](assets/images/c4/BoundedUsers_GigMap.png)
 
 ## 4.9. Software Object-Oriented Design
 
