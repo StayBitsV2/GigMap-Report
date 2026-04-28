@@ -4797,6 +4797,23 @@ Pasos para desplegar el backend en Render
 
 ### 5.2.2. Implemented Landing Page Evidence
 
+Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, y se accede a esta a través del siguiente enlace: https://staybits.github.io/GigMap-LandingPage-V2/
+
+<p align="center">
+  <img src="assets/images/landing-page/landing1.png" alt="landingpage1" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing2.png" alt="landingpage2" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing3.png" alt="landingpage3" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing4.png" alt="landingpage4" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing5.png" alt="landingpage5" width="700">
+</p>
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
