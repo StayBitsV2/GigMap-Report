@@ -917,7 +917,7 @@ Afirma que una aplicación como GigMap le parecería sumamente útil, ya que fac
 - **Inicio de entrevista:** 00:01:06
 
 <p align="center">
-  <img src="assets/images/interviews/artist1.png" alt="artist1" width="700">
+  <img src="assets/images/interviews/artist1.PNG" alt="artist1" width="700">
 </p>
 
 **Resumen:**
@@ -939,7 +939,7 @@ Finalmente, destacó que una herramienta como GigMap podría ayudar a superar la
 - **Inicio de entrevista:** 00:00:10
 
 <p align="center">
-  <img src="assets/images/interviews/artist2.png" alt="artist2" width="700">
+  <img src="assets/images/interviews/artist2.jpg" alt="artist2" width="700">
 </p>
 
 **Resumen:**
@@ -954,7 +954,7 @@ Leo Nova es un artista independiente de indie pop con influencias electrónicas 
 - **Inicio de entrevista:** 00:00:08
 
 <p align="center">
-	 <img src="assets/images/interviews/artist3.png" alt="artist3" width="700">
+	 <img src="assets/images/interviews/artist3.jpg" alt="artist3" width="700">
 </p>
 
 **Resumen:*En la entrevista, Diego Santos, conocido como Le Saint, artista independiente peruano con 10 años de trayectoria, comparte los desafíos que enfrenta para promocionar su propuesta musical de nicho, que fusiona reggae y reggaetón con instrumentos peruanos y requiere un público con gusto exquisito. Se muestra insatisfecho con las plataformas actuales, ya que no brindan las herramientas necesarias para un crecimiento real de artistas emergentes. Por ello, expresa gran entusiasmo por GigMap, a la que considera una solución disruptiva al integrar un mapa musical local. Propone funcionalidades como la gestión eficiente de perfiles y fechas de conciertos, análisis estratégicos de datos sobre satisfacción del público y retorno de inversión para elegir ciudades viables, y una experiencia personalizada que permita a los seguidores pedir comida y servicios directamente desde la app durante los shows. Finalmente, Le Saint afirma que recomendaría la plataforma a otros músicos y valora la creación de una comunidad para interactuar de forma cercana con sus seguidores.*
