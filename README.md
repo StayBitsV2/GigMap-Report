@@ -277,34 +277,38 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td> 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software </td>
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        TB1: <br> AAA. <br><br>
+        TB1: <br> Se encargó de organizar la estructura del capítulo 3, manteniendo un enfoque ordenado y coherente en el desarrollo del contenido. Además, promovió un ambiente de trabajo colaborativo, asegurando que cada integrante pueda aportar sus ideas y que estas se integren adecuadamente en la revisión de las historias de usuario. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
-        TB1: <br> AAA.<br><br>
+        TB1: <br> Participó en el desarrollo del capítulo 4, aportando principalmente en la redacción del contenido para que sea claro, entendible y bien estructurado. Asimismo, colaboró en la revisión de las historias de usuario, buscando que estas comuniquen correctamente las necesidades del usuario.<br><br>
+        Lizarbe Alvarez, Ariana Nickole <br><br>
+        TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
-        AAA.<br><br>
+        Desarrolló el capítulo 4 con un enfoque en la calidad y cumplimiento de los entregables. Además, investigó información relevante y aportó ideas que ayudaron a fortalecer las historias de usuario y el contenido del informe.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br> AAA.<br><br>
+        TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br> AAA<br><br>
+        TB1: <br> Desarrolló el capítulo 2 aplicando sus habilidades de análisis y creatividad, aportando ideas que enriquecieron la propuesta. Asimismo, participó en la revisión de las historias de usuario, mejorando su claridad y consistencia.<br><br>
       </td>
-      <td> AAA.</td>
+      <td> A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto.</td>
     </tr>
     <tr>
       <td> 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales </td>
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        TB1: <br> AAA.<br><br>
+        TB1: <br> Se aseguró de que las decisiones tomadas dentro del equipo sigan un enfoque organizado y responsable, considerando la importancia de mantener un trabajo estructurado que permita un desarrollo sostenible del proyecto.<br><br>
         Collantes Carrillo, Diego Mateo <br><br>
-        TB1: <br> AAA.<br><br>
+        TB1: <br>Aportó a que el contenido del proyecto sea comprensible y accesible, considerando el impacto social de la solución en la forma en que las personas descubren y acceden a la música en vivo.<br><br>
+        Lizarbe Alvarez, Ariana Nickole <br><br>
+        TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
-        TB1: AAA.<br><br>
+        TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br> AAA.<br><br>
+        TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br> AAA.<br>
+        TB1: <br>Evaluó la solución desde un enfoque analítico y creativo, considerando su impacto en la difusión de artistas emergentes y en la mejora de la experiencia de los usuarios dentro del ecosistema musical.<br>
       </td>
-      <td> AAAA.</td>
+      <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.</td>
     </tr>
   </tbody>
 </table>
@@ -317,26 +321,291 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 ### 1.1.1. Descripción de la Startup
 
+StayBits es una startup creativa y tecnológica dedicada a transformar la manera en que las personas descubren, conectan y disfrutan la música en vivo, convencidos de que cada concierto, sin importar su escala, tiene la capacidad de despertar emociones únicas y generar lazos duraderos entre artistas y fans. Nuestro esfuerzo se centra en GigMap, una aplicación mobile interactiva que funciona como un puente entre los amantes de la música y los escenarios de su ciudad, ofreciendo un mapa dinámico con geolocalización donde los usuarios pueden explorar eventos en tiempo real, seguir a sus artistas preferidos, conocer las fechas de sus giras, registrar su asistencia en conciertos y compartir experiencias con otros fans. Además, proporcionamos herramientas de visibilidad y promoción para bandas emergentes, impulsando así el crecimiento de la escena musical independiente. En StayBits creemos en el poder de la comunidad, el descubrimiento espontáneo y la tecnología como motores para enriquecer la vida cultural, con la visión de crear una red global en la que cada presentación en vivo "desde un pequeño bar hasta un gran festival internacional" pueda ser encontrada, compartida y disfrutada al máximo, celebrando la div ersidad y el dinamismo del mundo musical. Con pasión, innovación y compromiso social, desde el corazón de StayBits impulsamos proyectos como GigMap, que reinventan la manera de vivir la música en directo y la acercan a quienes más la disfrutan.
+
+Nuestra misión es conectar a las personas con la música en vivo mediante tecnología innovadora, facilitando el descubrimiento de eventos y fortaleciendo la relación entre artistas y fans. Y la vision que tenemos es ser la plataforma líder a nivel global en el descubrimiento de música en vivo, impulsando comunidades musicales y dando visibilidad a artistas de todo tipo de estilos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+| Estudiante | Descripción |
+|------------|-------------|
+| ![team member profile photo](assets/images/profiles/) **Bejarano Martinez, Alvaro Leandro (u202311640)** | Mi nombre es Alvaro Leandro Bejarano Martínez, estudiante de la carrera Ingeniería de Software y me destaco por mi perseverancia, organización y capacidad para trabajar en equipo. Me esfuerzo por mantener un ambiente estructurado dentro del grupo, donde cada miembro se sienta valorado y sus ideas sean escuchadas y respetadas. Mi compromiso es fomentar la colaboración efectiva, asegurando que cada contribución se integre de manera ordenada y alineada con los objetivos comunes del equipo. |
+| ![team member profile photo](assets/images/profiles/diego_collantes.png) **Collantes Carrillo, Diego Mateo (u202311823)** | Mi nombre es Diego Collantes. Tengo 20 años. Soy estudiante de sexto ciclo en la Universidad Peruana de Ciencias Aplicadas (UPC). Disfruto de leer, redactar y escuchar música en mi tiempo libre. Elegí esta carrera, ya que me interesó todo el proceso que hay detrás de cada aplicación o programa que usamos en nuestro día a día. Personalmente, espero ampliar mis conocimientos en este ámbito a lo largo de este curso. Además, estoy comprometido a contribuir en todo lo que sea posible con el equipo y a desempeñarme de manera adecuada. |
+| ![team member profile photo](assets/images/profiles/ariana_lizarbe.png) **Lizarbe Alvarez, Ariana Nickole (u202311704)** | Mi nombre es Ariana Lizarbe, tengo 20 años y estoy cursando el sexto ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre fuera de la universidad, procuro mejorar mis habilidades blandas, como la empatía o inteligencia emocional. También, me esfuerzo en adquirir conocimientos que pueden ayudarme a desarrollarme como futura profesional, como distintos lenguajes de programación. A su vez, disfruto de escuchar música, podcasts, leer y ver series de televisión. Me comprometo a colaborar de manera activa y responsable en la creación de esta startup, aportando mis habilidades en pensamiento crítico, trabajo en equipo y adaptabilidad para alcanzar un trabajo de calidad sobresaliente. |
+| ![team member profile photo](assets/images/profiles/antuanete_ortiz.png) **Ortiz Cardenas, Johanna Antuanete (u202310358)** | Mi nombre es Johanna Antuanete Ortiz Cárdenas, tengo 20 años y me encuentro en el sexto ciclo de la carrera de Ingeniería de Software. Me considero una persona proactiva y responsable, siempre buscando que mis trabajos sean de la mejor calidad posible. Me apasiona investigar sobre tecnología, lo que me permite estar al tanto de las últimas novedades y tendencias. En mi tiempo libre, disfruto jugar videojuegos, escuchar música y leer cómics. En el presente proyecto grupal, me comprometo a colaborar de manera activa, aportando ideas y siendo puntual con los entregables para garantizar resultados sobresalientes. |
+| ![team member profile photo](assets/images/profiles/loreley_sarmiento.jpg) **Sarmiento Medina, Loreley (u202310005)** |  Mi nombre es Loreley Sarmiento, tengo 20 años y actualmente curso la carrera de Ingeniería de Software. Me considero una persona responsable, organizada y con buena disposición para el trabajo en equipo, ya que valoro la comunicación y la colaboración como elementos clave para lograr buenos resultados. Me interesa seguir aprendiendo constantemente y asumir nuevos retos que me permitan fortalecer mis habilidades.En este proyecto, busco participar de manera activa, apoyar a mis compañeros, aportar ideas que contribuyan al desarrollo del equipo y cumplir con las tareas asignadas dentro de los plazos establecidos, con el objetivo de alcanzar un resultado de calidad. |
+| ![team member profile photo](assets/images/profiles/renato_zegarra.png) **Zegarra Lopez, Renato Sebastian Rubber (u202311558)** | Mi nombre es Renato Zegarra, tengo 20 años y actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Fuera de mis estudios, disfruto explorar mis intereses en música, videojuegos y tecnología, siempre buscando nuevas formas de integrar estas pasiones en mi vida cotidiana. Me comprometo a colaborar de manera activa y responsable en la elaboración de este documento y en la concreción de la idea propuesta, aportando mis habilidades en análisis, creatividad y adaptabilidad. Estoy convencido de que con esfuerzo y trabajo en equipo, podemos alcanzar resultados innovadores y de alta calidad. |
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Nombre del producto
 
+GigMap es una solución pensada para facilitar la forma en que las personas descubren y viven la música en vivo. Permite encontrar conciertos cercanos en tiempo real a partir de los gustos e intereses de cada usuario, ofreciendo una experiencia más personalizada. Además, ayuda a seguir artistas, conocer sus próximos eventos y descubrir nuevas propuestas musicales. Así, convierte cada salida en una oportunidad para conectar con la escena local de manera más natural y dinámica.
+
 ### 1.2.2. Antecedentes y problemática
+
+**What**:
+
+Las personas experimentan dificultad para descubrir y encontrar conciertos en vivo, en especial aquellos no tan conocidos. Esto reduce la visibilidad de artistas emergentes, limita el acceso a experiencias musicales auténticas y debilita el impacto de la música local en la rutina de los fans.
+Por ejemplo, Chartmetric (2023) reporta que el 99,9 % de los artistas añadidos a la aplicación ese año permanecieron en las categorías de "no descubiertos" o "en desarrollo", mientras solo el 0,1 % alcanzó niveles medios o de éxito, destacando la extrema saturación de talento y la falta de visibilidad
+
+**When**:
+
+Esta problemática surge especialmente justo cuando las personas están dispuestas a disfrutar de música en vivo pero no tienen acceso a información confiable en tiempo real. Este escenario ocurre con frecuencia durante salidas espontáneas en fin de semana, cuando los fans intentan seguir a artistas emergentes pero desconocen sus fechas locales, y también en el caso de turistas que desean explorar la vida cultural de nuevas ciudades sin herramientas adecuadas de difusión. La evidencia de comportamiento en la recopilacion de Google (2016) sobre búsquedas locales que indica que el 76% de quienes buscan “algo cerca” en su smartphone visitan un lugar relacionado en 24 horas, subrayando la relevancia de la inmediatez móvil.
+
+**Where**:
+
+Ocurre en diversos entornos:
+	- En la rutina diaria de los usuarios
+ 	- Al viajar o buscar actividades fuera de la zona habitual
+  	- En barrios con oferta musical pero escasa visibilidad digital
+	- En ciudades donde los medios tradicionales no alcanzan al público digital o joven
+ 
+ La UNESCO (2022) advierte que los marcos e infraestructuras digitales son claves para ampliar el acceso y la participación cultural.
+ 
+
+**Why**:
+
+Porque asistir a conciertos en vivo genera valor cultural, emocional y social. No solo fortalece el sentido de comunidad y apoya directamente a los artistas, sino que también fomenta el descubrimiento de propuestas novedosas. La ausencia de una herramienta eficaz que conecte al público con eventos locales, especialmente independientes o espontáneos, impide el acceso a experiencias significativas y perjudica tanto a los músicos como al público.
+
+**Who**:
+
+Las personas más afectadas son:
+	- Fans de música en vivo, tanto jóvenes como adultos, que buscan conciertos interesantes cerca de su ubicación pero carecen de información centralizada y actualizada.
+	- Artistas emergentes y bandas independientes, que enfrentan enormes barreras para lograr visibilidad y difusión en un entorno competitivo.
+ 
+La literatura sobre industrias culturales documenta desigualdades estructurales que dificultan a los independientes alcanzar audiencias sin mediación tecnológica (Hesmondhalgh, 2019).
+
+**How**:
+
+GigMap resuelve esta necesidad mediante una aplicación móvil que centraliza, personaliza y geolocaliza información sobre conciertos en tiempo real. La tecnología se apoya en: preferencias del usuario, ubicación, filtros de género, fechas y tipo de evento, alertas personalizadas, acceso a shows independientes, y funciones de recomendación y compartición social. Integra múltiples fuentes (publicaciones de artistas, registros de eventos, recomendaciones sociales) para ofrecer una experiencia fluida, espontánea y enriquecedora.
+
+**How much:**
+
+Si no se interviene:
+	- Artistas pierden oportunidades para darse a conocer, generar ingresos y construir una base de seguidores.
+	- La asistencia a conciertos disminuye, afectando la economía de espacios culturales, bares y promotores locales.
+	- La vida cultural urbana se empobrece al invisibilizar propuestas valiosas.
+	- Hay frustración entre los fans que desean experiencias auténticas y no encuentran cómo acceder a ellas.
+
+En cambio, una solución como GigMap tiene un alto potencial de impacto positivo, ya que puede fomentar la cultura local, promover el descubrimiento musical y apoyar el ecosistema artístico independiente, directamente conectando al público con la música en vivo.
 
 ### 1.2.3. Lean UX Process
 
 #### 1.2.3.1. Lean UX Problem Statements
 
+Nuestros usuarios son personas apasionadas por la música en vivo: jóvenes, adultos que buscan experiencias auténticas y desean conectar con la escena musical de cada ciudad. Para ellos, encontrar conciertos cercanos en tiempo real y con información adaptada a sus intereses es una necesidad real, ya que muchos eventos, sobre todo los de menor escala, pasan desapercibidos por la falta de difusión. Esta brecha provoca que el público no logre descubrir a los artistas emergentes y que la escena independiente vea limitado su alcance y crecimiento. Sabremos que hemos respondido a este desafío cuando los usuarios utilicen GigMap para asistir a más conciertos, se incremente la visibilidad de músicos independientes y exista una participación activa en funciones como la geolocalización, las alertas personalizadas y la exploración de eventos.
+
+Por este motivo, GigMap asume el compromiso de ofrecer una aplicación accesible, intuitiva y pensada en las necesidades reales del usuario, que sirva de puente directo entre los fans y la música en vivo. A través de herramientas inteligentes de descubrimiento, personalización y notificación, GigMap busca fortalecer el vínculo entre artistas y público, impulsando una cultura musical más diversa, cercana e inclusiva. El propósito es empoderar tanto a quienes crean como a quienes disfrutan la música, construyendo una comunidad que valore, comparta y mantenga viva la experiencia única de los conciertos en directo.
+
 #### 1.2.3.2. Lean UX Assumptions
+
+Creemos que los usuarios de GigMap son principalmente jóvenes y adultos que disfrutan de la música en vivo y valoran experiencias auténticas, tanto en su ciudad como durante sus viajes. Detectamos que estas personas enfrentan dificultades para descubrir conciertos de pequeña y mediana escala debido a la falta de canales de difusión efectivos, lo que genera una desconexión con los artistas emergentes y los hace perderse de eventos significativos. Consideramos que valorarán una aplicación móvil que les permita recibir notificaciones personalizadas, explorar conciertos cercanos en tiempo real y descubrir propuestas locales de manera sencilla y atractiva. Una solución efectiva debe ser intuitiva, basada en la geolocalización, personalizable según gustos musicales y capaz de visibilizar eventos independientes que no suelen aparecer en medios tradicionales.
+
+**Assumptions Worksheet**
+
+**¿Quién es el usuario?** 
+
+- Personas que disfrutan de la música en vivo y buscan nuevas experiencias culturales.
+- Artistas emergentes que desean difundir su música y conectar con la comunidad.
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?**
+
+- GigMap funcionará como una herramienta esencial en el día a día de los usuarios, ayudándoles a tomar decisiones rápidas y seguras sobre qué conciertos asistir.
+- Puede utilizarse al planificar una salida, durante un viaje o incluso en recorridos cotidianos, sirviendo como guía personalizada para descubrir experiencias musicales alineadas con su estilo de vida.
+- Será un acompañante constante en el teléfono móvil, facilitando la exploración urbana y el acceso a la escena musical local.
+
+**¿Qué problemas tiene nuestro producto?**
+
+- Falta de información confiable y en tiempo real sobre conciertos y eventos musicales independientes.
+- Dificultad para acceder a opciones culturales en zonas desconocidas o con baja difusión digital.
+- Escasez de soluciones intuitivas que integren mapas, recomendaciones y experiencias personalizadas en una sola aplicación móvil.
+
+**¿Cuándo y cómo es nuestro producto utilizado?**
+
+- GigMap se usa cuando los usuarios quieren salir y explorar opciones musicales cercanas.
+- Puede utilizarse a lo largo del día, ya sea en el trabajo, en caminatas, paseos o al organizar actividades sociales.
+- Disponible en dispositivos móviles, debe ser intuitiva y accesible incluso para usuarios con poca experiencia tecnológica.
+
+**¿Qué características son importantes?**
+
+- Mapas interactivos que muestren eventos musicales según los géneros favoritos del usuario.
+- Información en tiempo real sobre afluencia, accesibilidad y cambios en la programación de los conciertos.
+- Alertas personalizadas con recordatorios y novedades relevantes.
+- Recomendaciones basadas en ubicación, historial de asistencia y gustos musicales.
+- Perfiles diferenciados para fans y artistas, con beneficios adaptados a cada rol.
+
+**Objetivos**
+
+- Facilitar el descubrimiento de conciertos: ayudar a los usuarios a encontrar eventos cercanos de manera personalizada y rápida.
+- Fortalecer la conexión entre fans y artistas: generar una red activa de interacción y apoyo mutuo.
+- Transformar la movilidad urbana en una experiencia cultural: vincular la exploración de la ciudad con la música en vivo.
+- Impulsar la participación en la escena local: promover la asistencia a eventos, el descubrimiento de nuevos talentos y la difusión de la música independiente.
+
+**Alcances**
+
+Asistencia personalizada en tiempo real
+
+- Recomendaciones adaptadas a los intereses, ubicación y contexto del usuario.
+- Actualizaciones en vivo sobre horarios, cambios y disponibilidad de entradas.
+- Mapas interactivos que indiquen rutas claras hacia los eventos.
+
+Accesibilidad y usabilidad
+
+- Interfaz intuitiva, moderna y clara.
+- Optimizada para smartphones y tablets, incluso en condiciones de conectividad limitada.
+  
+Conexión con comunidad y expertos
+
+- Espacios para recomendaciones de expertos y experiencias compartidas por otros usuarios.
+- Valoraciones y comentarios que fortalezcan la confianza y la participación activa.
+
+**Escalabilidad**
+
+- Adaptable a diferentes ciudades y contextos culturales.
+- Capacidad para integrar datos locales y expandirse globalmente.
+
+**Business Outcomes**
+
+- Convertirse en la aplicación móvil de referencia para el descubrimiento de música en vivo.
+- Generar datos anónimos útiles para políticas culturales y desarrollo urbano.
+- Posicionarse como pionera en una categoría de aplicaciones de exploración cultural móvil.
+- Crear un ecosistema en el que GigMap sea el punto de conexión entre usuarios, artistas y ciudades.
+
+**User Outcomes**
+
+- Acceso rápido a conciertos cercanos y alineados con los gustos del usuario.
+- Mayor participación en eventos de artistas emergentes e independientes.
+- Incremento en la visibilidad de músicos locales y diversidad cultural.
+- Interacción directa entre fans y artistas a través de notificaciones y herramientas de descubrimiento.
+- Reducción de la desconexión entre la oferta musical local y los posibles asistentes.
+
+**Features**
+
+- Mapas interactivos de conciertos filtrados por género, fecha y ubicación.
+- Buscador inteligente con filtros avanzados y autocompletado.
+- Sección para fans con beneficios exclusivos y recomendaciones personalizadas.
+- Sección para artistas con herramientas de promoción y análisis de audiencia.
+- Recomendaciones basadas en ubicación y gustos musicales previos.
+- Experiencia de uso fluida, confiable y centrada en el usuario.
+
 
 #### 1.2.3.3. Lean UX Hypothesis Statements
 
+Creemos que, si GigMap cuenta con una interfaz intuitiva y está optimizada para dispositivos móviles, incluso los usuarios con poca experiencia tecnológica podrán utilizar la aplicación con facilidad para orientarse y descubrir nuevos conciertos en su entorno.
+
+Creemos que, si GigMap ofrece recomendaciones de conciertos basadas en los intereses y preferencias del usuario, así como en la proximidad de los eventos, se logrará una experiencia más personalizada y una exploración más fluida de la oferta musical disponible.
+
+Creemos que, si GigMap integra una comunidad activa en la que los usuarios puedan compartir experiencias y reportar incidencias, se fomentará la confianza colectiva y la participación constante, reforzando el valor colaborativo de la aplicación.
+
+Creemos que, si GigMap proporciona una aplicación móvil para que los artistas emergentes publiquen sus conciertos y conecten con un público local, aumentarán sus oportunidades de visibilización, crecimiento y fidelización de seguidores, fortaleciendo así su carrera artística a largo plazo.
+
+Creemos que, si GigMap permite a los usuarios dejar reseñas y comentarios sobre conciertos y presentaciones, los artistas obtendrán retroalimentación constructiva que les permitirá mejorar su desempeño y consolidar su éxito en futuros eventos.
+
+Creemos que, si GigMap destaca a artistas emergentes y facilita su participación en conciertos junto a músicos ya consolidados, se incrementarán sus posibilidades de ser reconocidos por profesionales de la industria, contribuyendo a su desarrollo y proyección en la escena musical.
+
 #### 1.2.3.4. Lean UX Canvas
+
+<table border="1">
+  <tr>
+    <th>Business Problem</th>
+    <th>Solutions</th>
+    <th>Business Outcomes</th>
+  </tr>
+  <tr>
+    <td>
+      Muchas personas que disfrutan de la música en vivo, así como artistas y cantantes, tanto independientes como formales, enfrentan dificultades para descubrir o difundir conciertos, especialmente los de pequeña o mediana escala. Esta desconexión limita el crecimiento de la escena musical local, reduce la visibilidad de los artistas y hace que los fans se pierdan experiencias auténticas.
+    </td>
+    <td>
+      GigMap es una aplicación móvil que conecta a los amantes de la música con conciertos en tiempo real, permitiendo descubrir eventos cercanos mediante geolocalización, recibir notificaciones personalizadas según gustos musicales y acceder a la agenda de presentaciones de artistas locales. Además, ofrece una aplicación para que los músicos puedan publicar sus eventos y llegar a su público ideal.
+    </td>
+    <td>
+      Esperamos que GigMap incremente la asistencia a conciertos, visibilice a más artistas independientes y fomente una comunidad musical más conectada. El éxito se medirá por el aumento de usuarios activos, la cantidad de eventos compartidos en la aplicación y el crecimiento en la interacción entre fans y artistas.
+    </td>
+  </tr>
+  <tr>
+    <th>Users</th>
+    <th colspan="2">User Benefits</th>
+  </tr>
+  <tr>
+    <td>
+      Nuestros usuarios son personas apasionadas por la música en vivo, así como artistas y cantantes, tanto independientes como formales, que buscan descubrir o difundir eventos musicales con mayor facilidad. Comparten el objetivo de vivir experiencias musicales únicas o de hacer crecer su audiencia.
+    </td>
+    <td colspan="2">
+      <ul>
+        <li>Descubrimiento de conciertos cercanos en tiempo real gracias a la geolocalización.</li>
+        <li>Notificaciones personalizadas según el estilo musical de interés.</li>
+        <li>Para artistas: herramienta efectiva y accesible para promocionar sus presentaciones.</li>
+        <li>Mayor conexión entre músicos y fans en escenarios culturales reales.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>Hypotheses</th>
+    <th>What’s the most important thing we need to learn first?</th>
+    <th>What’s the least amount of work we need to do to learn the most important thing?</th>
+  </tr>
+  <tr>
+    <td>
+      Creemos que, al ofrecer una solución que conecta a personas y artistas mediante conciertos geolocalizados y notificaciones personalizadas, los usuarios asistirán a más eventos y los músicos lograrán una mayor difusión, fortaleciendo la comunidad musical local y mejorando la experiencia para ambas partes.
+    </td>
+    <td>
+      Es fundamental validar si los fans consideran útil la aplicación para descubrir conciertos relevantes y si los artistas encuentran valioso el canal para promover sus presentaciones.
+    </td>
+    <td>
+      Desarrollar un prototipo funcional que muestre conciertos cercanos según ubicación e intereses musicales, incluyendo una opción para que los artistas registren sus eventos. Luego, probarlo con un grupo de usuarios y músicos para obtener retroalimentación directa sobre la utilidad y la experiencia.
+    </td>
+  </tr>
+</table>
+
 
 ## 1.3. Segmentos objetivo
 
+**Fans de la música (jóvenes y adultos jóvenes):**
+
+De acuerdo con Duche Pérez y Andía Gonzales (2019), el 54 % de los estudiantes universitarios asiste a conciertos “de vez en cuando” (1 o 2 veces al año). Este dato respalda el comportamiento cultural de este segmento universitario 
+
+- Edad estimada: 16 a 35 años
+
+- Ubicación: Principalmente en zonas urbanas con oferta cultural como Lima.
+
+- Características demográficas y de comportamiento:
+  
+	- Incorporan la música como parte del día a día.
+	- Consumen contenido en aplicaciones como Spotify, Apple Music.
+	- Siguen a artistas en redes sociales como Instagram, TikTok o X.
+	- Comparten sus preferencias musicales con amigos y buscan experiencias reales significativas.
+
+- Necesidades principales:
+
+	- Descubrir conciertos cercanos en tiempo real.
+	- Recibir notificaciones sobre giras o presentaciones.
+	- Compartir su asistencia en redes.
+	- Encontrar fácilmente eventos pequeños o independientes poco promocionados.
+
+
+**Artistas emergentes y bandas independientes:** 
+
+Según Chartmetric (2024), de los artistas añadidos en 2023, el 99.9 % terminó el año en las categorías “Undiscovered” o “Developing”, mientras que solo una minúscula proporción logró avanzar a niveles más altos como Mid-Level o Mainstream
+
+Crecimiento económico del sector independiente:
+El mercado global de artistas independientes alcanzó un valor estimado de USD 160.6 mil millones en 2025, y se espera que crezca a USD 219.93 mil millones para 2030, expandiéndose a una tasa anual compuesta del 6.49% 
+
+- Edad estimada: 18 a 40 años
+  
+- Ubicación: Zonas urbanas o semiurbanas con escena cultural dinámica, como Lima.
+
+- Características demográficas y de comportamiento:
+
+	- Generalmente son músicos autogestionados o integrantes de bandas independientes que no cuentan con el respaldo de grandes disqueras.
+	- Utilizan redes sociales y aplicaciones como principales canales de promoción, interacción con su audiencia y difusión de eventos.
+	- Buscan herramientas tecnológicas que les ofrezcan mayor visibilidad, autonomía en la gestión de sus actividades y una comunicación directa con sus seguidores.
+
+- Necesidades principales:
+
+	- Promocionar conciertos y aumentar su visibilidad en el ámbito local.
+	- Construir y fidelizar su audiencia.
+	- Disponer de herramientas simples de geolocalización y organización de calendario.
+	- Medir y analizar la asistencia a sus presentaciones para mejorar su estrategia.
 
 # CAPÍTULO II: Requirements Elicitation & Analysis
 
