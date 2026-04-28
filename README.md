@@ -967,16 +967,16 @@ Finalmente, recomendaría una aplicación como GigMap a otros artistas emergente
 
 #### Entrevista #3
 
-- **Nombre completo:** 
-- **Edad:**  años
-- **Distrito:** 
-- **Inicio de entrevista:** 00:00:55
+- **Nombre completo:*Diego Andres Santos Espinoza* 
+- **Edad:** 27 años
+- **Distrito:*San MIguel* 
+- **Inicio de entrevista:** 00:00:08
 
 <p align="center">
-  <img src="assets/images/interviews/artist3.png" alt="artist3" width="700">
+  <img src="assets/images/interviews/artist3.jpeg" alt="artist3" width="700">
 </p>
 
-**Resumen:**
+**Resumen:*En la entrevista, Diego Santos, conocido como Le Saint, artista independiente peruano con 10 años de trayectoria, comparte los desafíos que enfrenta para promocionar su propuesta musical de nicho, que fusiona reggae y reggaetón con instrumentos peruanos y requiere un público con gusto exquisito. Se muestra insatisfecho con las plataformas actuales, ya que no brindan las herramientas necesarias para un crecimiento real de artistas emergentes. Por ello, expresa gran entusiasmo por GigMap, a la que considera una solución disruptiva al integrar un mapa musical local. Propone funcionalidades como la gestión eficiente de perfiles y fechas de conciertos, análisis estratégicos de datos sobre satisfacción del público y retorno de inversión para elegir ciudades viables, y una experiencia personalizada que permita a los seguidores pedir comida y servicios directamente desde la app durante los shows. Finalmente, Le Saint afirma que recomendaría la plataforma a otros músicos y valora la creación de una comunidad para interactuar de forma cercana con sus seguidores.*
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -1034,13 +1034,14 @@ Está compuesto por jóvenes músicos independientes que gestionan su carrera de
 #### Entrevistas incluidas
 - Entrevista #1: Zaleth Feijóo (19 años, Pueblo Libre)
 - Entrevista #2: Diego Zúñiga (20 años, Comas)
+- Entrevista #3: Diego Santos (27 años, San Miguel)
 
 
 #### Características Objetivas
 
 | Variable                                         | Valor común identificado                          | Frecuencia | Porcentaje (%) |
 |--------------------------------------------------|--------------------------------------------------|------------|----------------|
-| **Edad**                                         | 19-20 años                                       | 3/3        | 100%           |
+| **Edad**                                         | 19-27 años                                       | 3/3        | 100%           |
 | **Género musical principal**                     | Indie rock, pop alternativo, indie pop           | 3/3        | 100%           |
 | **Gestión independiente de eventos**             | Sí                                               | 3/3        | 100%           |
 | **Uso de redes para difusión**                   | Instagram, TikTok, Spotify                       | 3/3        | 100%           |
