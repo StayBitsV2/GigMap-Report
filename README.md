@@ -846,7 +846,7 @@ Opinión y expectativas sobre GigMap:
 
 
 
-URL del vídeo de las Entrevistas publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/pcsierey_upc_edu_pe/EWAVbjg95iRMieIyfmsp59sBsqLdJ-VfaUPfzpuXXZqWDw?e=MWUekM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+URL del vídeo de las Entrevistas de segmento objetivo #1 publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQBW9wdnSZYNQYOjTGEedNlgARvD3iSL6EAlvV4QNFBtbIY?e=Wp7N6F`
 
 ### Segmento objetivo #1: Fans de la música
 
@@ -912,6 +912,9 @@ Bianca Huertas, de 20 años, es estudiante de Diseño de Interiores y vive en el
 Sus géneros musicales favoritos incluyen salsa, reguetón y K-pop, y muestra mucho entusiasmo por la experiencia de asistir a eventos musicales. Bianca admite que a veces no logra encontrar información clara o a tiempo sobre los conciertos que le interesan, lo cual considera una limitación importante en su experiencia.
 
 Afirma que una aplicación como GigMap le parecería sumamente útil, ya que facilitaría el descubrimiento de eventos sin tener que buscarlos manualmente en diversas redes. Está especialmente interesada en funcionalidades como mapa de eventos cercanos, notificaciones de próximos conciertos, filtros por género musical y alertas sobre fechas próximas según ubicación. Además, valoraría mucho una función que le permita compartir eventos con sus amigos dentro de la misma app para poder asistir acompañada.
+
+
+URL del vídeo de las Entrevistas de segmento objetivo #1 publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQBvnjbC5qzIT5-5ywJQZEy-AeuNDp_LmMA3_PNbVtGuneo?e=gYmKpf`
 
 ### Segmento objetivo #2: Artistas emergentes y bandas independientes
 
