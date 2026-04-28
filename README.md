@@ -462,7 +462,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4">
         <strong>Escenario: Acceso al formulario de creación de evento</strong><br>
         Dado que el artista inicia sesión<br>
-        Cuando accede a "Crear evento"<br>
+        Cuando presiona el boton para crear conciertos<br>
         Entonces puede ingresar datos y publicarlo en el mapa.<br><br>
         <strong>Escenario: Publicación inmediata y visible</strong><br>
         Dado que los datos son válidos<br>
@@ -599,7 +599,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Información de eventos en el mapa</strong><br>
         Dado que el usuario interactúa con un marcador de evento<br>
         Cuando hace clic en un ícono del mapa<br>
-        Entonces puede ver detalles del evento como nombre, hora y lugar.
+        Entonces puede ver detalles del evento como nombre, fecha y lugar.
       </td>
     </tr>
   </tbody>
@@ -638,7 +638,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4">
         <strong>Escenario: Búsqueda por palabra clave</strong><br>
         Dado que el usuario accede al buscador de conciertos<br>
-        Cuando escribe un nombre o artista<br>
+        Cuando escribe el nombre del concierto<br>
         Entonces se muestran los conciertos coincidentes.
       </td>
     </tr>
@@ -669,7 +669,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario, quiero buscar comunidades por nombre o temática para unirme a las que me interesen.</td>
+      <td colspan="4">Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -757,7 +757,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Registro como artista</strong><br>
-        Dado que el visitante accede al formulario de registro<br>
+        Dado que el usuario accede al formulario de registro<br>
         Cuando selecciona la opción 'Artista' y completa sus datos<br>
         Entonces su cuenta es creada con perfil de artista.
       </td>
@@ -796,7 +796,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Registro como fan</strong><br>
-        Dado que el visitante accede al formulario de registro<br>
+        Dado que el usuario accede al formulario de registro<br>
         Cuando selecciona la opción 'Fan' y completa sus datos<br>
         Entonces su cuenta es creada con perfil de fan.
       </td>
@@ -867,7 +867,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario, quiero saber si un concierto está disponible o agotado para decidir si puedo asistir.</td>
+      <td colspan="4">Como usuario, quiero saber si un concierto está publicado o finalizado para decidir si puedo asistir.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -877,7 +877,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Visualización de estado del concierto</strong><br>
         Dado que el usuario revisa la lista de conciertos<br>
         Cuando observa el estado de disponibilidad<br>
-        Entonces puede ver si el evento está 'Disponible' o 'Agotado'.
+        Entonces puede ver si el evento está 'Publicado' o 'Finalizado'.
       </td>
     </tr>
   </tbody>
@@ -916,7 +916,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Acceso a detalles del concierto</strong><br>
         Dado que el usuario selecciona un concierto<br>
         Cuando accede a su ficha de detalle<br>
-        Entonces visualiza el artista, ubicación, fecha, hora, imagen, y descripción.
+        Entonces visualiza el nombre, ubicación, fecha, imagen, y descripción.
       </td>
     </tr>
   </tbody>
@@ -984,7 +984,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como fan, quiero crear publicaciones en la comunidad a la que me he unido, para compartir opiniones, fotos o recomendaciones con otros miembros.</td>
+      <td colspan="4">Como fan, quiero crear publicaciones en la comunidades creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -992,8 +992,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Crear publicación exitosa</strong><br>
-        Dado que el usuario está unido a una comunidad,<br>
-        Cuando accede a la comunidad y le da al botón agregar una nueva publicación y escribe un mensaje,<br>
+        Dado que el usuario accede una comunidad,<br>
+        Cuando le da al boton de agregar una nueva publicación y escribe un mensaje,<br>
         Entonces la publicación se guarda y se muestra en el feed de la comunidad.
       </td>
     </tr>
@@ -1072,9 +1072,9 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Confirmar asistencia a un evento</strong><br>
         Dado que el usuario visualiza los detalles de un evento,<br>
         Cuando presiona el botón "Confirmar asistencia",<br>
-        Entonces el evento se agrega a su lista de “Por asistir” y el botón cambia a "Cancelar asistencia".<br><br>
+        Entonces el evento se agrega a su “GigList” y el botón cambia a "Cancelar asistencia".<br><br>
         <strong>Escenario: Cancelar asistencia</strong><br>
-        Dado que el evento ya está marcado como “Por asistir”,<br>
+        Dado que el evento ya está marcado como confirmado,<br>
         Cuando presiona el botón "Cancelar asistencia",<br>
         Entonces el evento se elimina de su lista de eventos futuros y vuelve a estar disponible para confirmar.
       </td>
@@ -1105,7 +1105,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario, quiero visualizar en el apartado "Tus grupos" las comunidades a las que me he unido.</td>
+      <td colspan="4">Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -1113,8 +1113,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Visualización de comunidades unidas</strong><br>
-        Dado que el usuario ha ingresado a comunidades<br>
-        Cuando accede a la sección "Tus grupos"<br>
+        Dado que el usuario ha ingresado a su perfil<br>
+        Cuando accede a la sección "Comunidades"<br>
         Entonces puede ver la lista de comunidades a las que pertenece.
       </td>
     </tr>
@@ -1154,7 +1154,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Reacción a publicación</strong><br>
         Dado que el usuario navega por una comunidad<br>
         Cuando encuentra una publicación<br>
-        Entonces puede reaccionar con un emoji o símbolo.
+        Entonces puede reaccionar con un emoji de corazón.
       </td>
     </tr>
   </tbody>
@@ -1231,7 +1231,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4">
         <strong>Escenario: Historial de publicaciones favoritas</strong><br>
         Dado que el usuario ha interactuado en comunidades<br>
-        Cuando accede a su sección de favoritos<br>
+        Cuando accede a su sección de "Likes"<br>
         Entonces puede visualizar todas las publicaciones que le han gustado.
       </td>
     </tr>
@@ -1310,7 +1310,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Publicación con imagen</strong><br>
         Dado que el usuario quiere compartir contenido<br>
         Cuando crea una publicación<br>
-        Entonces puede adjuntar una o más imágenes que se muestren en el feed.
+        Entonces puede adjuntar una imagen que se muestren en el feed.
       </td>
     </tr>
   </tbody>
@@ -1339,7 +1339,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar.</td>
+      <td colspan="4">Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (afterparty/reunion) que podría realizar.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -1350,8 +1350,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         Dado que estoy autenticado<br>
         Y estoy en el perfil de un concierto<br>
         Cuando desplazo la vista hasta el apartado “Eventos relacionados”<br>
-        Entonces veo una lista de eventos con título, fecha/hora y distancia<br>
-        Y puedo abrir el detalle de cualquier evento desde su tarjeta.
+        Entonces veo una lista de eventos con título, fecha y lugar<br>
+        Y puedo abrir el detalle de cualquier evento.
       </td>
     </tr>
   </tbody>
@@ -1390,11 +1390,11 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Confirmar asistencia</strong><br>
         Dado que el usuario visualiza los detalles de un evento asociado,<br>
         Cuando presiona el botón "Confirmar asistencia",<br>
-        Entonces el evento asociado se agrega a su lista de “Por asistir” y el botón cambia a "Cancelar asistencia".<br><br>
+        Entonces se confirma la asistencia al evento asociado y el botón cambia a "Cancelar asistencia".<br><br>
         <strong>Escenario: Cancelar asistencia</strong><br>
         Dado que el evento asociado ya está marcado como “Confirmar asistencia”,<br>
         Cuando presiona el botón "Cancelar asistencia",<br>
-        Entonces el evento asociado se elimina de su lista de eventos futuros y vuelve a estar disponible para confirmar.
+        Entonces el evento vuelve a estar disponible para confirmar.
       </td>
     </tr>
   </tbody>
@@ -1423,7 +1423,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades que sigo en la pantalla de “Mis comunidades”.</td>
+      <td colspan="4">Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades existentes para poder enterarme de distintos temas, en la pantalla de “Home”.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -1431,9 +1431,9 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Visualizar el contenido de las comunidades exitosamente</strong><br>
-        Dado que un usuario sigue una o más comunidades<br>
-        Cuando accede a la pantalla "Mis comunidades"<br>
-        Entonces el sistema muestra las publicaciones y anuncios más recientes de esas comunidades.
+        Dado que un usuario ingresa a la pantalla "Home"<br>
+        Cuando visualiza la sección "Posts"<br>
+        Entonces el sistema muestra las publicaciones y anuncios más recientes de las comunidades.
       </td>
     </tr>
   </tbody>
@@ -1593,7 +1593,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <strong>Escenario: Acceso a detalles del evento asociado</strong><br>
         Dado que el usuario selecciona un evento asociado<br>
         Cuando accede a su ficha de detalle<br>
-        Entonces visualiza la temática, ubicación, fecha, hora, imagen, y descripción.
+        Entonces visualiza la ubicación, fecha, imagen, y descripción.
       </td>
     </tr>
   </tbody>
@@ -1610,7 +1610,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
   <tbody>
     <tr>
       <td>US31</td>
-      <td>Visitante (Fan)</td>
+      <td>usuario (Fan)</td>
       <td>1</td>
       <td>EP07</td>
     </tr>
@@ -1622,7 +1622,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como visitante del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.</td>
+      <td colspan="4">Como usuario del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -1630,11 +1630,11 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Acceso a sección para fans</strong><br>
-        Dado que el visitante accede a la landing page<br>
+        Dado que el usuario accede a la landing page<br>
         Cuando visualiza la sección "Para fans de la música"<br>
         Entonces puede leer los beneficios de unirse a la app.<br><br>
         <strong>Escenario: Decisión de registro influenciada por beneficios</strong><br>
-        Dado que el visitante revisa los beneficios presentados<br>
+        Dado que el usuario revisa los beneficios presentados<br>
         Cuando encuentra opciones que se alinean con sus intereses<br>
         Entonces aumenta su intención de registrarse en la aplicación
       </td>
@@ -1653,7 +1653,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
   <tbody>
     <tr>
       <td>US32</td>
-      <td>Visitante (Artista)</td>
+      <td>usuario (Artista)</td>
       <td>1</td>
       <td>EP07</td>
     </tr>
@@ -1665,7 +1665,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como visitante del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.</td>
+      <td colspan="4">Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -1673,11 +1673,11 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Acceso a sección para artistas</strong><br>
-        Dado que el visitante está en la landing page<br>
+        Dado que el usuario está en la landing page<br>
         Cuando revisa la sección "Para artistas"<br>
         Entonces puede visualizar herramientas y ventajas destacadas.<br><br>
         <strong>Escenario: Evaluación del valor de la app</strong><br>
-        Dado que el visitante es un artista emergente<br>
+        Dado que el usuario es un artista emergente<br>
         Cuando analiza las herramientas promocionales disponibles<br>
         Entonces comprende cómo GigMap puede ayudarle a crecer.
       </td>
@@ -1696,7 +1696,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
   <tbody>
     <tr>
       <td>US33</td>
-      <td>Visitante</td>
+      <td>usuario</td>
       <td>1</td>
       <td>EP07</td>
     </tr>
@@ -1708,7 +1708,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como visitante, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.</td>
+      <td colspan="4">Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -1716,18 +1716,60 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td colspan="4">
         <strong>Escenario: Visualización de comentarios de usuarios</strong><br>
-        Dado que el visitante navega por la landing<br>
+        Dado que el usuario navega por la landing<br>
         Cuando encuentra la sección de testimonios<br>
         Entonces puede leer comentarios y valoraciones de otros usuarios.<br><br>
         <strong>Escenario: Confianza reforzada por experiencias ajenas</strong><br>
-        Dado que el visitante tiene dudas sobre la app<br>
+        Dado que el usuario tiene dudas sobre la app<br>
         Cuando lee testimonios positivos<br>
         Entonces se siente más confiado para unirse.
       </td>
     </tr>
   </tbody>
 </table>
-
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US34</td>
+      <td>Usuario</td>
+      <td>1</td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Crear evento asociado</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.</td>
+	</tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Creacion de evento asociado</strong><br>
+        Dado que el usuario accede al detalle de un concierto<br>
+        Cuando presiona el boton para crear un evento asociado<br>
+        Entonces puede ingresar datos y asociarlo a un concierto<br><br>
+        <strong>Escenario: Publicación inmediata y visible</strong><br>
+        Dado que los datos son válidos<br>
+        Cuando se confirma la creación<br>
+        Entonces el evento aparece visible en el detalle del concierto.
+      </td>
+    </tr>
+  </tbody>
+</table>
 **Technical Stories:**
 
 <table>
@@ -1952,7 +1994,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     </tr>
     <tr>
       <td colspan="4">
-        Como developer, quiero un endpoint POST en /api/v1/concerts/{concertId}/attendees que permita a los usuarios confirmar su asistencia a un concierto.
+        Como developer, quiero un endpoint POST en /api/v1/concerts/attendees que permita a los usuarios confirmar su asistencia a un concierto.
       </td>
     </tr>
     <tr>
@@ -2001,7 +2043,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     </tr>
     <tr>
       <td colspan="4">
-        Como developer, quiero un endpoint DELETE en /api/v1/concerts/{concertId}/attendees que permita a los usuarios cancelar su asistencia a un concierto.
+        Como developer, quiero un endpoint DELETE en /api/v1/concerts/attendees que permita a los usuarios cancelar su asistencia a un concierto.
       </td>
     </tr>
     <tr>
@@ -2105,7 +2147,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-09</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Salir de una comunidad</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/communities/{communityId}/join para permitir que los usuarios abandonen una comunidad.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/communities/{communityId}/leave para permitir que los usuarios abandonen una comunidad.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Salida exitosa de comunidad</strong><br>
@@ -2129,7 +2171,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-10</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Obtener concierto por ID</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/concerts/{id} que devuelva los datos de un concierto específico.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/concerts/{concertId} que devuelva los datos de un concierto específico.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Concierto encontrado</strong><br>
@@ -2153,7 +2195,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-11</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Eliminar concierto</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/concerts/{id} que permita eliminar un concierto.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/concerts/{concertId} que permita eliminar un concierto.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Eliminación exitosa</strong><br>
@@ -2177,7 +2219,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-12</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Actualizar concierto</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint PUT en /api/v1/concerts/{id} que permita actualizar toda la información de un concierto.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint PUT en /api/v1/concerts/{concertId} que permita actualizar toda la información de un concierto.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Concierto actualizado correctamente</strong><br>
@@ -2203,7 +2245,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-13</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Obtener usuario por ID</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/users/{id} para ver el perfil público de un usuario.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/users/{userId} para ver el perfil público de un usuario.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Usuario encontrado</strong><br>
@@ -2227,7 +2269,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-14</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Actualizar perfil de usuario</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint PUT en /api/v1/users/{id} para permitir al usuario modificar su información personal.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint PUT en /api/v1/users/{userId} para permitir al usuario modificar su información personal.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Actualización exitosa</strong><br>
@@ -2350,7 +2392,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-19</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Ver publicación por ID</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/posts/{id} para obtener el detalle de una publicación.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint GET en /api/v1/posts/{postId} para obtener el detalle de una publicación.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Publicación encontrada</strong><br>
@@ -2374,7 +2416,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr><td>TS-20</td><td>Developer</td><td>1</td><td>EP06</td></tr>
     <tr><td><strong>Title</strong></td><td colspan="3">Eliminar publicación por ID</td></tr>
     <tr><td colspan="4"><strong>Description</strong></td></tr>
-    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/posts/{id} para permitir que un usuario borre su publicación.</td></tr>
+    <tr><td colspan="4">Como developer, quiero un endpoint DELETE en /api/v1/posts/{postId} para permitir que un usuario borre su publicación.</td></tr>
     <tr><td colspan="4"><strong>Acceptance Criteria</strong></td></tr>
     <tr><td colspan="4">
       <strong>Escenario: Eliminación exitosa</strong><br>
@@ -2576,22 +2618,22 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 | # Orden | User Story Id | Título                                                    | Descripción                                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
 | ------- | ------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| 1       | US31          | Ver beneficios para fans                                  | Como visitante del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.                                                                                       | 3                                |
-| 2       | US32          | Ver beneficios para artista                               | Como visitante del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                   | 3                                |
-| 3       | US33          | Acceder a testimonios                                     | Como visitante, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                  | 2                                |
+| 1       | US31          | Ver beneficios para fans                                  | Como usuario del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.                                                                                       | 3                                |
+| 2       | US32          | Ver beneficios para artista                               | Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                   | 3                                |
+| 3       | US33          | Acceder a testimonios                                     | Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                  | 2                                |
 | 4       | US03          | Personalizar perfil de artista                            | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.                                                                              | 5                                |
 | 5       | US06          | Buscar conciertos                                         | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                                                                         | 3                                |
-| 6       | US07          | Buscar comunidades                                        | Como usuario, quiero buscar comunidades por nombre o temática para unirme a las que me interesen.                                                                                                 | 3                                |
+| 6       | US07          | Buscar comunidades                                        | Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.                                                                                                 | 3                                |
 | 7       | US11          | Zoom a concierto en el mapa                               | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.                                                                                                          | 2                                |
-| 8       | US12          | Ver estado del concierto                                  | Como usuario, quiero saber si un concierto está disponible o agotado para decidir si puedo asistir.                                                                                               | 2                                |
+| 8       | US12          | Ver estado del concierto                                  | Como usuario, quiero saber si un concierto está publicado o finalizado para decidir si puedo asistir.                                                                                               | 2                                |
 | 9       | US16          | Editar perfil personal                                    | Como fan, quiero poder editar mi información de perfil (foto, nombre y nombre de usuario), para que los demás usuarios puedan reconocerme fácilmente y mantener mi perfil actualizado.            | 5                                |
-| 10      | US18          | Ver comunidades accedidas                                 | Como usuario, quiero visualizar en el apartado "Tus grupos" las comunidades a las que me he unido.                                                                                                | 2                                |
+| 10      | US18          | Ver comunidades accedidas                                 | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                                | 2                                |
 | 11      | US19          | Reaccionar a publicaciones en comunidades                 | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
 | 12      | US20          | Acceder a perfil de otros usuarios                        | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
 | 13      | US21          | Ver publicaciones con like                                | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like".                                                                                                                 | 2                                |
 | 14      | US22          | Permitir acceso a ubicación                               | Como usuario, quiero que GigMap acceda a mi ubicación para recibir información personalizada.                                                                                                     | 2                                |
 | 15      | US25          | Confirmar o marcar asistencia a eventos asociados         | Como usuario, quiero poder marcar mi asistencia a un evento asociado, para que pueda llevar un seguimiento de los eventos asociados que planeo asistir.                                           | 5                                |
-| 16      | US26          | Visualizar el contenido de las comunidades pertenecientes | Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades que sigo en la pantalla de “Mis comunidades”.                                                               | 3                                |
+| 16      | US26          | Visualizar el contenido de las comunidades creadas | Como usuario, quiero poder visualizar las publicaciones y anuncios de las comunidades creadas en la pantalla de “Home”.                                                               | 3                                |
 | 17      | US30          | Ver información detallada del evento asociado             | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
 | 18      | US01          | Filtrar conciertos por género musical                     | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
 | 19      | US02          | Publicar nuevo concierto                                  | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
@@ -2602,33 +2644,33 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 | 24      | US10          | Registrarse como fan                                      | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
 | 25      | US13          | Ver información detallada del concierto                   | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
 | 26      | US14          | Unirse a una comunidad                                    | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.                                                                                      | 3                                |
-| 27      | US15          | Publicar en la comunidad                                  | Como fan, quiero crear publicaciones en la comunidad a la que me he unido, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                  | 5                                |
+| 27      | US15          | Publicar en la comunidad                                  | Como fan, quiero crear publicaciones en las comunidad creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                  | 5                                |
 | 28      | US17          | Confirmar o marcar asistencia a un concierto              | Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.                                                             | 5                                |
 | 29      | US23          | Subir imágenes en comunidades                             | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
 | 30      | US24          | Ver eventos asociados                                     | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
 | 31      | US27          | Recibir recordatorio de concierto por asistir             | Como usuario, quiero recibir la notificación de recordatorio del concierto al que confirme mi asistencia cuando la fecha de presentación esté cercana.                                            | 3                                |
-| 32      | US28          | Recibir notificaciones de conciertos cercanos             | Como usuario registrado, quiero recibir notificaciones sobre conciertos cerca de mi ubicación para no perderme eventos de mi interés.                                                             | 5                                |
+| 32      | US34          | Crear evento asociado             | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                             |                                 |
 | 33      | US29          | Recibir notificaciones por interacciones sociales         | Como usuario, quiero recibir notificaciones cuando alguien interactúe con mis publicaciones (comentarios, likes, etc.) para mantenerme al tanto de la actividad en mi perfil.                     | 5                                |
 | 34      | TS-01         | Crear concierto                                           | Como developer, quiero un endpoint POST en /api/v1/concerts que permita crear conciertos con toda su información.                                                                                 | 5                                |
 | 35      | TS-02         | Crear publicación en comunidad                            | Como developer, quiero un endpoint POST en /api/v1/posts que permita a un usuario crear publicaciones dentro de una comunidad.                                                                    | 5                                |
 | 36      | TS-03         | Listar comunidades de usuario                             | Como developer, quiero un endpoint GET en /api/v1/communities/joined/{userId} que permita obtener las comunidades a las que pertenece un usuario.                                                 | 3                                |
 | 37      | TS-04         | Obtener todos los conciertos                              | Como developer, quiero un endpoint GET en /api/v1/concerts que devuelva todos los conciertos públicos para mostrarlos en la sección de exploración.                                               | 3                                |
-| 38      | TS-05         | Confirmar asistencia a concierto                          | Como developer, quiero un endpoint POST en /api/v1/concerts/{concertId}/attendees que permita a los usuarios confirmar su asistencia a un concierto.                                              | 3                                |
-| 39      | TS-06         | Cancelar asistencia a concierto                           | Como developer, quiero un endpoint DELETE en /api/v1/concerts/{concertId}/attendees que permita a los usuarios cancelar su asistencia a un concierto.                                             | 3                                |
+| 38      | TS-05         | Confirmar asistencia a concierto                          | Como developer, quiero un endpoint POST en /api/v1/concerts/attendees que permita a los usuarios confirmar su asistencia a un concierto.                                              | 3                                |
+| 39      | TS-06         | Cancelar asistencia a concierto                           | Como developer, quiero un endpoint DELETE en /api/v1/concerts/attendees que permita a los usuarios cancelar su asistencia a un concierto.                                             | 3                                |
 | 40      | TS-07         | Obtener comunidades                                       | Como developer, quiero un endpoint GET en /api/v1/communities que devuelva todas las comunidades disponibles para unirse.                                                                         | 3                                |
 | 41      | TS-08         | Unirse a una comunidad                                    | Como developer, quiero un endpoint POST en /api/v1/communities/{communityId}/join que permita a los usuarios unirse a una comunidad.                                                              | 3                                |
-| 42      | TS-09         | Salir de una comunidad                                    | Como developer, quiero un endpoint DELETE en /api/v1/communities/{communityId}/join para permitir que los usuarios abandonen una comunidad.                                                       | 3                                |
-| 43      | TS-10         | Obtener concierto por ID                                  | Como developer, quiero un endpoint GET en /api/v1/concerts/{id} que devuelva los datos de un concierto específico.                                                                                | 2                                |
-| 44      | TS-11         | Eliminar concierto                                        | Como developer, quiero un endpoint DELETE en /api/v1/concerts/{id} que permita eliminar un concierto.                                                                                             | 3                                |
-| 45      | TS-12         | Actualizar concierto                                      | Como developer, quiero un endpoint PUT en /api/v1/concerts/{id} que permita actualizar toda la información de un concierto.                                                                       | 5                                |
-| 46      | TS-13         | Obtener usuario por ID                                    | Como developer, quiero un endpoint GET en /api/v1/users/{id} para ver el perfil público de un usuario.                                                                                            | 2                                |
-| 47      | TS-14         | Actualizar perfil de usuario                              | Como developer, quiero un endpoint PUT en /api/v1/users/{id} para permitir al usuario modificar su información personal.                                                                          | 3                                |
+| 42      | TS-09         | Salir de una comunidad                                    | Como developer, quiero un endpoint DELETE en /api/v1/communities/{communityId}/leave para permitir que los usuarios abandonen una comunidad.                                                       | 3                                |
+| 43      | TS-10         | Obtener concierto por ID                                  | Como developer, quiero un endpoint GET en /api/v1/concerts/{concertId} que devuelva los datos de un concierto específico.                                                                                | 2                                |
+| 44      | TS-11         | Eliminar concierto                                        | Como developer, quiero un endpoint DELETE en /api/v1/concerts/{concertId} que permita eliminar un concierto.                                                                                             | 3                                |
+| 45      | TS-12         | Actualizar concierto                                      | Como developer, quiero un endpoint PUT en /api/v1/concerts/{concertId} que permita actualizar toda la información de un concierto.                                                                       | 5                                |
+| 46      | TS-13         | Obtener usuario por ID                                    | Como developer, quiero un endpoint GET en /api/v1/users/{userId} para ver el perfil público de un usuario.                                                                                            | 2                                |
+| 47      | TS-14         | Actualizar perfil de usuario                              | Como developer, quiero un endpoint PUT en /api/v1/users/{userId} para permitir al usuario modificar su información personal.                                                                          | 3                                |
 | 48      | TS-15         | Obtener todos los usuarios                                | Como developer, quiero un endpoint GET en /api/v1/users que liste todos los usuarios registrados en la aplicación.                                                                                | 3                                |
 | 49      | TS-16         | Dar like a publicación                                    | Como developer, quiero un endpoint POST en /api/v1/posts/{postId}/like que registre un like del usuario a un post.                                                                                | 2                                |
 | 50      | TS-17         | Quitar like a publicación                                 | Como developer, quiero un endpoint DELETE en /api/v1/posts/{postId}/unlike para eliminar el like de un usuario a una publicación.                                                                 | 2                                |
 | 51      | TS-18         | Crear publicación en comunidad                            | Como developer, quiero un endpoint POST en /api/v1/posts que permita crear publicaciones nuevas.                                                                                                  | 3                                |
-| 52      | TS-19         | Ver publicación por ID                                    | Como developer, quiero un endpoint GET en /api/v1/posts/{id} para obtener el detalle de una publicación.                                                                                          | 2                                |
-| 53      | TS-20         | Eliminar publicación por ID                               | Como developer, quiero un endpoint DELETE en /api/v1/posts/{id} para permitir que un usuario borre su publicación.                                                                                | 3                                |
+| 52      | TS-19         | Ver publicación por ID                                    | Como developer, quiero un endpoint GET en /api/v1/posts/{postId} para obtener el detalle de una publicación.                                                                                          | 2                                |
+| 53      | TS-20         | Eliminar publicación por ID                               | Como developer, quiero un endpoint DELETE en /api/v1/posts/{postId} para permitir que un usuario borre su publicación.                                                                                | 3                                |
 | 54      | TS-21         | Ver publicaciones por comunidad                           | Como developer, quiero un endpoint GET en /api/v1/posts?communityId={communityId} que liste todas las publicaciones de una comunidad.                                                             | 3                                |
 | 55      | TS-22         | Registro de usuario                                       | Como developer, quiero un endpoint POST en /api/v1/auth/register para registrar nuevos usuarios con contraseña encriptada.                                                                        | 5                                |
 | 56      | TS-23         | Login de usuario                                          | Como developer, quiero un endpoint POST en /api/v1/auth/login que permita iniciar sesión con validación de credenciales.                                                                          | 5                                |
