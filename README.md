@@ -3685,8 +3685,10 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 ![team member profile photo](assets/images/c4/C4-Clase-Concerts.png)
 
 
-
 ## 4.10. Database Design
+
+### 4.10.1. Relational/Non-Relational Database Diagram
+
 
 **Registro y Autenticación:**
 
@@ -3707,7 +3709,6 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 **Conciertos:**
 
 ![team member profile photo](assets/images/c4/ERD-Conciertos.png)
-### 4.10.1. Relational/Non-Relational Database Diagram
 
 # CAPÍTULO V: Product Implementation
 
