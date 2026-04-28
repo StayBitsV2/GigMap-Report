@@ -164,9 +164,12 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 </div>
 
 ## Project Report Collaboration Insights
-URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigMap-Report.git`
+URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigMap-Report.git`
 
 **TB1 (26/04/2026):**
+<p align="center">
+  <img src="assets/project.png" alt="fan2" width="700">
+</p>
 
 ## **Contenido**
 - [Part I: As-Is Software Project](#part-i-as-is-software-project)
