@@ -3046,17 +3046,17 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 
 Requerimientos previos
 
-- Repositorio de desarrollo de la **Landing Page** en **GitHub**.  
-- Repositorio de GitHub con visibilidad **pública**.  
-- Tener una cuenta activa en **Render**.
+- Repositorio de desarrollo de la Landing Page en GitHub.  
+- Repositorio de GitHub con visibilidad pública.  
+- Tener una cuenta activa en Render.
 
 Pasos para desplegar la Landing Page:
 
 - Ingresar al sitio web de [Render](https://render.com/).  
 - Iniciar sesión en la cuenta de Render.  
-- Seleccionar la opción **“New”** → **“Web Service”**.  
+- Seleccionar la opción New → Web Service.  
 - Conceder acceso a Render para leer los repositorios de GitHub (si es la primera vez).  
-- Elegir el repositorio correspondiente a la **Landing Page** de **GigMap**.  
+- Elegir el repositorio correspondiente a la Landing Page de GigMap.  
 - Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, comando de build, etc.).  
 - Hacer clic en **“Deploy”**.  
 - Esperar a que Render complete el proceso de compilación y despliegue.  
@@ -3068,20 +3068,20 @@ Pasos para desplegar la Landing Page:
 
 Consideraciones antes del despliegue
 
-- Se debe contar con el **API del backend desplegado** en un servidor accesible externamente (Render en este caso).  
+- Se debe contar con el API del backend desplegado en un servidor accesible externamente (Render en este caso).  
 - Verificar que las rutas del backend estén configuradas correctamente en el proyecto móvil.
 
 Requerimientos previos
 
-- Repositorio de desarrollo del **API** en **GitHub**.  
-- Dispositivo **Android** en el que se pueda instalar la aplicación.  
+- Repositorio de desarrollo del API en **GitHub.  
+- Dispositivo Android en el que se pueda instalar la aplicación.  
 
 Pasos para desplegar la aplicación móvil
 
-- Activar el **modo desarrollador** en el dispositivo Android.  
-- Habilitar la **depuración por USB**.  
+- Activar el modo desarrollador en el dispositivo Android.  
+- Habilitar la depuración por USB.  
 - Conectar el dispositivo móvil a la computadora.  
-- Abrir **Android Studio** y seleccionar el proyecto de **GigMap**.  
+- Abrir **Android Studio** y seleccionar el proyecto de GigMap.  
 - Escoger el dispositivo en la lista de dispositivos disponibles.  
 - Hacer clic en **“Run” (Ejecutar)** para compilar e instalar la aplicación.  
 - Esperar a que el proceso finalice.  
@@ -3093,24 +3093,24 @@ Pasos para desplegar la aplicación móvil
 
 Consideraciones antes del despliegue
 
-- La **base de datos** debe estar desplegada en un servidor accesible externamente.  
+- La base de datos debe estar desplegada en un servidor accesible externamente.  
 - Verificar la correcta configuración de las variables de entorno (por ejemplo, cadenas de conexión, claves secretas, etc.).  
 
 Requerimientos previos
 
-- Repositorio de desarrollo del **backend** en **GitHub**.  
-- Repositorio con visibilidad **pública**.  
-- Cuenta activa en **Render**.  
+- Repositorio de desarrollo del backend en GitHub.  
+- Repositorio con visibilidad pública.  
+- Cuenta activa en Render.  
 
 Pasos para desplegar el backend en Render
 
-- Extraer el **pipeline de la base de datos** de **NeonTech** y vincularlo con el código del API.  
-- Crear un archivo **`Dockerfile`** para configurar el despliegue del API.  
+- Extraer el pipeline de la base de datos de Gigmap y vincularlo con el código del API.  
+- Crear un archivo Dockerfile para configurar el despliegue del API.  
 - Iniciar sesión en [Render](https://render.com/).  
-- Crear un nuevo proyecto de tipo **Web Service**.  
-- Importar el repositorio del **API de GigMap** al proyecto en Render.  
+- Crear un nuevo proyecto de tipo Web Service.  
+- Importar el repositorio del API de GigMap al proyecto en Render.  
 - Configurar las variables de entorno necesarias (DB_URL, PORT, etc.).  
-- Hacer clic en **“Deploy”**.  
+- Hacer clic en Deploy*.  
 - Esperar a que Render complete el despliegue y verificar el estado del servicio.  
 
 
