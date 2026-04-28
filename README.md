@@ -2724,11 +2724,395 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 ### 5.1.1. Software Development Environment Configuration
 
+**Project Management**
+
+En esta etapa, se utilizaron herramientas colaborativas que permitieron planificar, organizar y supervisar el progreso del proyecto **GigMap** de manera eficiente. Estas aplicaciones facilitaron la comunicación entre los miembros del equipo y el seguimiento de tareas, optimizando el flujo de trabajo.
+
+- [**Discord:**](https://discord.com/)  Cada integrante empleó la aplicación Discord para realizar reuniones virtuales, coordinar avances y resolver dudas en tiempo real. Esta herramienta fue clave para mantener una comunicación constante y una colaboración efectiva durante todo el desarrollo del proyecto.
+
+- [**Google Docs:**](https://workspace.google.com/intl/es-419/products/docs/) Con Google Docs se logró distribuir el trabajo de forma equitativa y registrar los avances individuales de cada miembro. Además, permitió organizar la información preliminar que posteriormente se integró en GitHub.
+
+
+**Requirements Management**
+
+Durante esta fase, se utilizaron diversas herramientas visuales para identificar, analizar y documentar los requerimientos del sistema, permitiendo una comprensión profunda de los usuarios y una definición clara de los objetivos del producto.
+
+
+- [**Trello:**](https://trello.com) Para asignar y organizar las tareas y responsabilidades de cada integrante del grupo en caso de revisiones o modificaciones del proyecto.
+
+
+**Product UX/UI Design**
+
+En esta etapa se emplearon herramientas de diseño que hicieron posible crear interfaces intuitivas, atractivas y centradas en la experiencia del usuario. Gracias a ellas, se pudieron desarrollar prototipos interactivos y representaciones visuales claras del funcionamiento de la aplicación GigMap.
+
+- [**Figma:**](https://www.figma.com/es-la/) Se utilizó Figma para diseñar wireframes, mockups y prototipos interactivos. Esta aplicación colaborativa permitió iterar de forma ágil sobre el diseño de la interfaz, evaluando tanto su usabilidad como su aspecto visual.
+
+**Software Development**
+
+Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST.
+
+| **Herramienta** | **Descripción** | **Enlace** |
+|-----------------|-----------------|-------------|
+| Android | Lenguaje de programación utilizado para la creación de la *mobile application*. | [https://developer.android.com/](https://developer.android.com/) |
+| Jetpack Compose | Framework utilizado para la creación de la *mobile application*. | [https://developer.android.com/compose](https://developer.android.com/compose) |
+
+**Software Testing**
+
+Para la verificación y validación del comportamiento del sistema, se emplearon herramientas y lenguajes orientados a la escritura de pruebas de aceptación, garantizando que los criterios definidos respondan a las necesidades del negocio y los requerimientos funcionales de Gigmap.
+
+| **Herramienta** | **Descripción** | **Enlace** |
+|-----------------|-----------------|-------------|
+| Gherkin | Lenguaje utilizado para la escritura de pruebas de aceptación mediante escenarios estructurados con la sintaxis *Given / When / Then*, permitiendo validar los criterios de aceptación de forma clara y comprensible para todos los miembros del equipo. | [https://cucumber.io/docs/gherkin/reference]( https://cucumber.io/docs/gherkin/reference) |
+| Postman | Herramienta utilizada para la realización de pruebas sobre los endpoints de la API REST, permitiendo verificar el correcto funcionamiento de las solicitudes HTTP y validar las respuestas del servidor. | [https://www.postman.com/](https://www.postman.com/) |
+
+
+**Software Deployment**
+
+Se utilizaron las siguientes herramientas de software para el despliegue de los servicios del proyecto: Render para la base de datos, Render para la API, Github para la landing page, y Android Studio para la aplicación móvil.
+
+| **Herramienta** | **Descripción** | **Enlace** |
+|-----------------|-----------------|-------------|
+| Github | Para la landing page. | [https://github.com](https://github.com) |
+| Render | Data base y Landing Page utilizadas para el proyecto. | [https://render.com/](https://render.com/) |
+| Android Studio | Herramienta utilizada para la creación de la *mobile application*. | [https://developer.android.com/studio](https://developer.android.com/studio) |
+
+**Software Documentation**
+
+Para la documentación del software utilizamos el lenguaje Markdown y para el trabajo colaborativo Github.
+
+| **Herramienta** | **Descripción** | **Enlace** |
+|-----------------|-----------------|-------------|
+| Markdown | Lenguaje de marcado utilizado | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+| GitHub | Plataforma utilizada para subir la documentación del proyecto. | [https://github.com/NRG-4/report](https://github.com/NRG-4/report) |
+
+
 ### 5.1.2. Source Code Management
+
+El código fuente del proyecto **GigMap** es gestionado mediante la plataforma **GitHub**, utilizando repositorios públicos para cada producto del proyecto.
+
+#### Repositorios
+
+| **Producto** | **URL** |
+|--------------|---------|
+| Landing Page | `link` |
+| Mobile Application | `link` |
+| Web Services | `link` |
+| Acceptance Tests | `link` |
+
+#### GitFlow como Workflow de Control de Versiones
+
+Para el desarrollo del proyecto se implementa **GitFlow** como modelo de gestión de ramas, permitiendo un control ordenado y estructurado de los cambios en el código fuente. Las ramas utilizadas son:
+
+- **Rama `main`:** Contiene la versión estable y desplegada más reciente del proyecto. Solo recibe fusiones desde la rama `develop` una vez que el código ha sido verificado y validado correctamente.
+
+- **Rama `develop`:** Rama de integración continua donde se consolidan los cambios desarrollados. Permite verificar que todas las funcionalidades trabajadas operen correctamente antes de ser promovidas a `main`.
+
+![GitFlow Diagram]()
+
+#### Convenciones de Commits
+
+Se aplica la convención **Conventional Commits** para estructurar los mensajes de commit de forma clara y semántica. Los prefijos utilizados son:
+
+- `feat:` para la incorporación de nuevas funcionalidades.
+- `fix:` para la corrección de errores o ajustes en funcionalidades existentes.
+- `docs:` para cambios relacionados con documentación.
+- `refactor:` para reestructuración del código sin alterar su comportamiento.
+- `test:` para la adición o modificación de pruebas.
+
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Para el desarrollo de la interfaz responsive de la aplicación GigMap se emplearon tecnologías web como HTML, CSS y JavaScript. A continuación, se detallan las convenciones y buenas prácticas aplicadas durante su implementación:
+
+**HTML**
+
+Se aplicó una estructura clara y organizada mediante el uso de etiquetas semánticas y contenedores:
+
+	<header></header>
+
+
+Encabezado general de la página.
+
+	<nav></nav>
+
+Barra de navegación.
+
+	<main></main>
+
+Contenedor principal del contenido.
+
+
+	<div class="container">
+	
+Se utilizó para agrupar bloques de contenido relacionados.
+
+	<footer>
+
+Pie de página con información adicional.
+
+
+Los títulos se declararon jerárquicamente usando las etiquetas 
+
+	<h1> a <h6>
+
+Las imágenes se insertaron mediante la etiqueta 
+
+	<img>
+
+incluyendo el atributo alt.
+
+Ejemplo:
+
+	<header>
+ 	 <h1>GigMap</h1>
+	</header>
+
+
+
+	<div class="container">
+  	<p>Contenido relacionado agrupado.</p>
+	</div>
+
+
+	<img src="imagen.jpg" alt="Descripción de la imagen">
+
+
+**CSS**
+Los estilos se definieron en un archivo externo. Se emplearon las siguientes prácticas:
+Nombres de clases en formato kebab-case (ej. .contenedor-principal).
+
+
+- Separación por secciones (tipografía, layout, botones).
+
+
+- Uso de media queries para diseño responsive.
+
+
+- Colores definidos por variables CSS para facilitar su reutilización.
+
+
+Ejemplo:
+
+
+	h1 {
+ 	 font-size: 24px;
+	  color: #0066cc;
+	}
+
+**JavaScript**
+
+Se utilizó JavaScript para interacciones básicas de la interfaz. Las principales convenciones fueron:
+Uso de nombres en camelCase.
+
+
+- Separación del código en archivos externos.
+
+
+- Comentarios explicativos cuando fue necesario.
+
+
+
+		function mostrarMenu() {
+  			// Código para mostrar u ocultar el menú
+		}
+
+**Buenas prácticas generales**
+
+- Indentación de 2 espacios.
+
+
+- Uso correcto de etiquetas semánticas y atributos de accesibilidad.
+
+
+- Organización de archivos en carpetas: /css, /js, /img.
+
+
+- Separación del contenido (HTML), presentación (CSS) y comportamiento (JavaScript).
+
+
+**Android (Kotlin/Java)**
+
+Nomenclatura:
+
+- Clases: PascalCase
+
+- Funciones y variables: camelCase
+
+- Constantes: UPPER_SNAKE_CASE
+
+ejemplo:
+
+		class EventDetailViewModel : ViewModel()
+
+		fun loadUserEvents() { /* ... */ }
+
+		const val MAX_PAGE_SIZE = 50
+
+-----
+
+Estructura:
+
+Separar lógica de UI
+
+- apa de presentación: ViewModel
+
+- Lógica de dominio: UseCase (interactors)
+
+La UI consume estados inmutables y dispara eventos hacia el ViewModel.
+
+Ejemplo:
+
+		// Dominio
+		class GetUpcomingGigsUseCase(private val repo: GigRepository) {
+    	suspend operator fun invoke() = repo.fetchUpcoming()
+		}
+
+		// Presentación
+		data class EventUiState(
+    		val isLoading: Boolean = false,
+   			val events: List<Gig> = emptyList(),
+    		val error: String? = null
+		)
+
+		class EventListViewModel(
+    	private val getUpcomingGigs: GetUpcomingGigsUseCase
+		) : ViewModel() {
+    		var uiState by mutableStateOf(EventUiState())
+        		private set
+
+    		fun load() = viewModelScope.launch {
+        		uiState = uiState.copy(isLoading = true)
+        		runCatching { getUpcomingGigs() }
+            		.onSuccess { uiState = uiState.copy(isLoading = false, events = it) }
+            		.onFailure { uiState = uiState.copy(isLoading = false, error = it.message) }
+    		}
+		}
+
+----------
+
+**Jetpack Compose**
+
+Componentes:
+- Nombre de funciones composables: PascalCase (p. ej., ButtonSubmit()).
+- El estado (remember, mutableStateOf) se gestiona en el ViewModel; la UI recibe state y callbacks.
+  
+Ejemplo:
+
+		@Composable
+		fun EventListScreen(
+    		state: EventUiState,
+    		onRetry: () -> Unit
+		) {
+    		when {
+        		state.isLoading -> Loading()
+        		state.error != null -> ErrorView(message = state.error, onRetry = onRetry)
+        		else -> EventList(events = state.events)
+    		}
+		}
+
+Recomposición:
+
+
+- Extraer lógica a UseCase/ViewModel o usar remember{} / derivedStateOf{} si aplica.
+
+- Utilizar Modifier para estilos reutilizables y composición.
+
+Ejemplo de Modifier reutilizable:
+
+		val cardModifier = Modifier
+    		.fillMaxWidth()
+    		.padding(16.dp)
+
+		@Composable
+		fun GigCard(gig: Gig, modifier: Modifier = Modifier) {
+    		Card(modifier.then(cardModifier)) {
+        		Column(Modifier.padding(16.dp)) {
+            		Text(gig.title, style = MaterialTheme.typography.titleMedium)
+            		Text(gig.venue, style = MaterialTheme.typography.bodyMedium)
+        		}
+    		}
+		}
+
+
 ### 5.1.4. Software Deployment Configuration
+
+**Despliegue de la Aplicación GigMap**
+
+En esta sección se detallan las consideraciones y pasos necesarios para el despliegue de los componentes de la aplicación GigMap, incluyendo la Landing Page, la aplicación móvil y el backend.
+
+---
+
+**Landing Page**
+
+Requerimientos previos
+
+- Repositorio de desarrollo de la **Landing Page** en **GitHub**.  
+- Repositorio de GitHub con visibilidad **pública**.  
+- Tener una cuenta activa en **Render**.
+
+Pasos para desplegar la Landing Page:
+
+- Ingresar al sitio web de [Render](https://render.com/).  
+- Iniciar sesión en la cuenta de Render.  
+- Seleccionar la opción **“New”** → **“Web Service”**.  
+- Conceder acceso a Render para leer los repositorios de GitHub (si es la primera vez).  
+- Elegir el repositorio correspondiente a la **Landing Page** de **GigMap**.  
+- Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, comando de build, etc.).  
+- Hacer clic en **“Deploy”**.  
+- Esperar a que Render complete el proceso de compilación y despliegue.  
+- Acceder a la **URL pública generada por Render** para verificar que la Landing Page funcione correctamente.  
+
+---
+
+**Aplicación Móvil**
+
+Consideraciones antes del despliegue
+
+- Se debe contar con el **API del backend desplegado** en un servidor accesible externamente (Render en este caso).  
+- Verificar que las rutas del backend estén configuradas correctamente en el proyecto móvil.
+
+Requerimientos previos
+
+- Repositorio de desarrollo del **API** en **GitHub**.  
+- Dispositivo **Android** en el que se pueda instalar la aplicación.  
+
+Pasos para desplegar la aplicación móvil
+
+- Activar el **modo desarrollador** en el dispositivo Android.  
+- Habilitar la **depuración por USB**.  
+- Conectar el dispositivo móvil a la computadora.  
+- Abrir **Android Studio** y seleccionar el proyecto de **GigMap**.  
+- Escoger el dispositivo en la lista de dispositivos disponibles.  
+- Hacer clic en **“Run” (Ejecutar)** para compilar e instalar la aplicación.  
+- Esperar a que el proceso finalice.  
+- Abrir la aplicación en el dispositivo y verificar que funcione correctamente.  
+
+---
+
+**Backend**
+
+Consideraciones antes del despliegue
+
+- La **base de datos** debe estar desplegada en un servidor accesible externamente.  
+- Verificar la correcta configuración de las variables de entorno (por ejemplo, cadenas de conexión, claves secretas, etc.).  
+
+Requerimientos previos
+
+- Repositorio de desarrollo del **backend** en **GitHub**.  
+- Repositorio con visibilidad **pública**.  
+- Cuenta activa en **Render**.  
+
+Pasos para desplegar el backend en Render
+
+- Extraer el **pipeline de la base de datos** de **NeonTech** y vincularlo con el código del API.  
+- Crear un archivo **`Dockerfile`** para configurar el despliegue del API.  
+- Iniciar sesión en [Render](https://render.com/).  
+- Crear un nuevo proyecto de tipo **Web Service**.  
+- Importar el repositorio del **API de GigMap** al proyecto en Render.  
+- Configurar las variables de entorno necesarias (DB_URL, PORT, etc.).  
+- Hacer clic en **“Deploy”**.  
+- Esperar a que Render complete el despliegue y verificar el estado del servicio.  
+
 
 ## 5.2. Product Implementation & Deployment
 
