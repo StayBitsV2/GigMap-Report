@@ -3105,7 +3105,7 @@ Requerimientos previos
 Pasos para desplegar el backend en Render
 
 - Extraer el pipeline de la base de datos de Gigmap y vincularlo con el código del API.  
-- Crear un archivo Dockerfilepara configurar el despliegue del API.  
+- Crear un archivo Dockerfile para configurar el despliegue del API.  
 - Iniciar sesión en [Render](https://render.com/).  
 - Crear un nuevo proyecto de tipo Web Service.  
 - Importar el repositorio del API de GigMap al proyecto en Render.  
