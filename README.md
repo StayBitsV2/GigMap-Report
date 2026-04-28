@@ -917,9 +917,9 @@ Afirma que una aplicación como GigMap le parecería sumamente útil, ya que fac
 
 #### Entrevista #1
 
-- **Nombre completo:** Zaleth Feijóo
-- **Edad:** 19 años
-- **Distrito:** Pueblo Libre
+- **Nombre completo:** Mathias Medina
+- **Edad:** 20 años
+- **Distrito:** La Molina
 - **Inicio de entrevista:** 00:01:06
 
 <p align="center">
@@ -928,16 +928,15 @@ Afirma que una aplicación como GigMap le parecería sumamente útil, ya que fac
 
 **Resumen:**
 
-La entrevistada, Zaleth Feijóo, es una joven artista de 19 años, residente en Pueblo Libre. Su nombre artístico es Ithli, y se dedica principalmente al género indie rock, siendo una artista independiente con tres años de trayectoria.
+El entrevistado, Mathias Medina, es un joven artista de 20 años, residente en La Molina, Lima. Forma parte del dúo musical MYM y cuenta con aproximadamente cuatro años de trayectoria en la música.
 
-Durante la conversación, Zaleth manifestó que utiliza redes sociales como Instagram y TikTok como sus principales canales de promoción para eventos y lanzamientos. No cuenta con un equipo de apoyo fijo. Sin embargo, en ocasiones, colabora con colegas del mismo ámbito. La difusión de su música ha representado un reto constante, debido a la dificultad de alcanzar al público objetivo y a la crítica negativa que recibe en redes.
+Durante la conversación, Mathias comentó que utiliza principalmente redes sociales como Instagram, TikTok, estados de WhatsApp y Spotify para promocionar sus lanzamientos y eventos. Sin embargo, considera que estos medios tienen una limitación importante, ya que le permiten comunicarse sobre todo con personas que ya lo siguen, dificultando así el alcance hacia nuevos públicos.
 
-Afirma que no ha utilizado aplicaciones especializadas para promocionar conciertos, y considera que las redes sociales no son suficientes para que un artista emergente se dé a conocer de forma adecuada. A su parecer, esto se debe tanto a la ausencia de una aplicación especializada como a la falta de valorización del arte y la música emergente.
+Asimismo, mencionó que esta forma de difusión resulta insuficiente para crecer como artista emergente, ya que su visibilidad depende en gran medida de su red actual de seguidores. Esto hace que llegar a nuevas audiencias sea un proceso lento y complicado.
 
-En cuanto a la propuesta de GigMap, la artista considera que una aplicación de este tipo podría ser muy útil, ya que permitiría a los usuarios encontrar eventos cercanos según sus intereses musicales. Además, mostró interés en poder crear un perfil artístico, gestionar fechas, y contar con funcionalidades como estadísticas de asistencia a eventos, integración de redes sociales, y espacios de comunicación directa con fans.
+En cuanto a la propuesta de GigMap, Mathias mostró interés en la funcionalidad de comunidad dentro de la aplicación. Considera que la posibilidad de comunicarse directamente con sus seguidores en un espacio más personalizado sería un gran valor diferencial, ya que permitiría generar una conexión más cercana y auténtica con su público.
 
-Zaleth cree que GigMap puede ser una herramienta poderosa para aumentar la visibilidad de los artistas emergentes si incluye funciones de filtro por género musical. También estaría interesada en construir una comunidad dentro de la aplicación, en donde los artistas puedan interactuar directamente con sus seguidores y compartir contenido exclusivo.
-
+Finalmente, destacó que una herramienta como GigMap podría ayudar a superar las limitaciones actuales de las redes sociales, brindando nuevas formas de interacción y mayor alcance para artistas independientes como él.
 #### Entrevista #2
 
 - **Nombre completo:** Diego Zúñiga
