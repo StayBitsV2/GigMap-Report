@@ -4872,16 +4872,66 @@ La empresa se reserva el derecho de modificar estos términos en cualquier momen
 
 Los presentes términos se rigen por las leyes de la República del Perú. Cualquier controversia será sometida a la jurisdicción de los tribunales competentes de Lima Metropolitana.
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
-
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 <p align="center">
   <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
 </p>
 
-### 5.2.6. RESTful API documentation
 
-### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
+
+| **Video About-the-Product** |
+|-----------------------------|
+| **Screenshot:**<br>![Screenshot del video](assets/ss-video-about-the-product2.png) |
+| **Duración:**<br>2:32 |
+| **URL OneDrive:**<br>  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311558_upc_edu_pe/IQAxvpLO7-vpSJ49qANyaf1qAbXJmMEOUdZM4wnkiwU-wTg?e=EcaAi8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`  |
+| **URL Youtube:**<br>  `https://youtu.be/4ypL066T7xk`  |
+| **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
+
+# Conclusiones 
+
+El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
+Mediante el uso del enfoque Lean UX y el análisis de entrevistas, se logró validar las principales necesidades tanto de los fans como de los artistas emergentes. Ambos segmentos coinciden en la dificultad de difusión y acceso a eventos, lo que respalda la propuesta de valor de GigMap. Este proceso permitió tomar decisiones más informadas y centradas en el usuario.
+
+El trabajo colaborativo del equipo fue clave para el desarrollo integral del informe, permitiendo abordar distintas áreas como análisis, diseño y propuesta de solución. La división de responsabilidades y la constante revisión conjunta garantizaron coherencia y calidad en los entregables. Además, se fomentó un ambiente de respeto y aporte continuo entre los integrantes.
+
+GigMap se posiciona como una solución con alto potencial de impacto en el ámbito cultural, social y tecnológico. No solo facilita el descubrimiento de conciertos, sino que también impulsa la visibilidad de artistas independientes y fortalece la conexión con su audiencia. De esta manera, contribuye al crecimiento de la escena musical local y a la generación de experiencias significativas para los usuarios.
+
+# Recomendaciones
+
+Se recomienda continuar con la validación del producto mediante pruebas con usuarios reales, utilizando prototipos funcionales que permitan recoger retroalimentación directa. Esto ayudará a identificar mejoras en la usabilidad, funcionalidades clave y experiencia general, asegurando que GigMap responda efectivamente a las necesidades detectadas en el análisis inicial.
+
+Es importante fortalecer las estrategias de adquisición de usuarios, especialmente en etapas tempranas, mediante alianzas con artistas emergentes, locales y organizadores de eventos. Estas colaboraciones permitirán incrementar la base de datos de conciertos y generar mayor visibilidad, consolidando la propuesta de valor de la plataforma en el mercado.
+
+Se recomienda incorporar funcionalidades analíticas tanto para usuarios como para artistas, como métricas de asistencia, preferencias musicales y comportamiento dentro de la app. Esto no solo mejorará la personalización del servicio, sino que también brindará información valiosa para la toma de decisiones y la mejora continua del producto.
+
+Finalmente, se sugiere planificar la escalabilidad del sistema desde etapas tempranas, considerando su posible expansión a nuevas ciudades o países. Para ello, será clave diseñar una arquitectura flexible y adaptable que permita integrar nuevas fuentes de datos y mantener un rendimiento óptimo a medida que crezca la cantidad de usuarios y eventos.
+
+
+# Bibliografía 
+
+Chartmetric. (2023). Year in music 2023: Part 1. Chartmetric. https://reports.chartmetric.com/2023/year-in-music/part-1
+
+GlobeNewswire. (2025). Music Tourism Market Analysis Report 2024: Specialized Music Festivals, Expanding Offering, Niche Genres, and Unique Cultural Experiences – Global Long-term Forecast to 2028 and 2033. https://www.globenewswire.com/news-release/2025/01/07/3005534/28124/en/Music-Tourism-Market-Analysis-Report-2024-Specialized-Music-Festivals-Expanding-Offering-Niche-Genres-and-Unique-Cultural-Experiences-Global-Long-term-Forecast-to-2028-and-2033.html
+
+Hesmondhalgh, D. (2019). The Cultural Industries (4.ª ed.). SAGE. https://uk.sagepub.com/en-gb/eur/the-cultural-industries/book250830
+
+Industriamusical.com. (2024). Solo el 0.01% de los artistas emergentes alcanza niveles moderados de éxito. https://industriamusical.com/solo-el-0-01-de-los-artistas-emergentes-alcanza-niveles-moderados-de-exito/
+
+Instituto de Estudios Peruanos (IEP). (2019). Informe de Opinión: Música y hábitos de consumo cultural. https://iep.org.pe/wp-content/uploads/2019/09/Informe-OP-Septiembre-2019-M%C3%BAsica-7.pdf
+
+Mauch, M., MacCallum, R. M., Levy, M., & Leroi, A. M. (2021). Cultural divergence in popular music: The increasing diversity of music consumption on Spotify across countries. ResearchGate. https://www.researchgate.net/publication/353483127_Cultural_Divergence_in_popular_music_the_increasing_diversity_of_music_consumption_on_Spotify_across_countries
+
+Mordor Intelligence. (2023). Independent Artists Market – Growth, Trends, and Forecasts (2023–2028). Mordor Intelligence. https://www.mordorintelligence.com/industry-reports/independent-artists
+
+Mordor Intelligence. (2024). Análisis del mercado de artistas independientes - crecimiento, tendencias y pronósticos (2024-2029). https://www.mordorintelligence.com/es/industry-reports/independent-artists
+
+Ramos-Pla, A., Ramírez-Montoya, M. S., & García-Peñalvo, F. J. (2022). Consumo musical y su relación con la asistencia a conciertos entre universitarios. Revista de Comunicación, 21(2). https://www.redalyc.org/journal/280/28065583023/html/
+
+Redalyc. (2023). Segmento objetivo en el consumo cultural. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal. https://www.redalyc.org/journal/280/28065583023/html/
+
+Think with Google. (s. f.). Mobile “near me” searches. www.thinkwithgoogle.com/marketing-strategies/search/mobile-near-me-searches/
+
+UNESCO. (2022). Re Shaping Policies for Creativity (Global Report). https://www.unesco.org/creativity/sites/default/files/medias/fichiers/2023/01/380474eng.pdf
